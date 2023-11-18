@@ -2,7 +2,7 @@ import streamlit as st
 from Lc_read import load_log, qa_langchain
 import os
 
-chat_history = []  # Move the chat_history list outside of the main() function
+
 
 def main():
     st.title("Need to read a log? Let me help you!")
@@ -15,7 +15,7 @@ def main():
     st.subheader("Chat Area")
 
     # User input
-    user_input = st.text_input("You:", "type your question here")
+    user_input = st.text_input("You:", "")
     
 
     # Document upload
@@ -93,3 +93,5 @@ if __name__ == "__main__":
     # Initialize chat history
     
     main()
+
+     

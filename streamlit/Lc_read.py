@@ -21,7 +21,7 @@ def load_log(log):
     
     #split
     print('spliting')
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size = 500, chunk_overlap = 0)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size = 60, chunk_overlap = 0)
     all_splits = text_splitter.split_documents(data)
     
     #store
