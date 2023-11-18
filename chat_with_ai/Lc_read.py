@@ -19,7 +19,6 @@ def load_log(log):
     
     # the type of loader must be txt
     # log = log.split('\n')
-    loader = 
     loader = TextLoader(log)
     data = loader.load()
 
