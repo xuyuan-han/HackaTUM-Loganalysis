@@ -10,34 +10,32 @@ from langchain.document_loaders import TextLoader
 
 # build environment
 def load_log(log):
-    os.environ["OPENAI_API_KEY"] = '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'
+    os.environ["OPENAI_API_KEY"] = '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'
 
-    # question = "Show does it provide transperency"
-    
-    # load data
-    # loader = PyPDFLoader('sustainability-report-fy2022.pdf')
-    
-    # the type of loader must be txt
-    # log = log.split('\n')
-    loader = 
+    #load
+    print('reading text')
     loader = TextLoader(log)
+    print('loading log')
     data = loader.load()
 
     
     #split
+    print('spliting')
     text_splitter = RecursiveCharacterTextSplitter(chunk_size = 500, chunk_overlap = 0)
     all_splits = text_splitter.split_documents(data)
     
     #store
     global vectorstore
     vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings())
+    
+    return 1
    
     # docs = vectorstore.similarity_search(question)
 def qa_langchain(question):
     
     
     # generate answer
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo-16k-0613", temperature=0)
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo-16k", temperature=0)
     qa_chain = RetrievalQA.from_chain_type(llm,retriever=vectorstore.as_retriever())
     
     

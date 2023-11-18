@@ -2,3 +2,5 @@ transformers
 streamlit
 pillow
 plotly
+langchian
+charmdb
