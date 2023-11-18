@@ -9,3 +9,4 @@ tiktoken
 sentence_transformers
 "pyautogen[retrievechat]~=0.2.0b5"
 "flaml[automl]"
+logparser3
