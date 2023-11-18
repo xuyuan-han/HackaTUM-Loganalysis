@@ -1,4 +1,9 @@
-transformers
-streamlit
-pillow
-plotly
+# transformers
+# streamlit
+# pillow
+# plotly
+langchain>=0.0.142
+nicegui
+openai
+chromadb
+tiktoken
