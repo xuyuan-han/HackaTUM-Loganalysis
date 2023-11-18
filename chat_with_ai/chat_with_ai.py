@@ -4,10 +4,11 @@ from typing import List, Tuple
 from langchain.chains import ConversationChain
 from langchain.chat_models import ChatOpenAI
 from log_callback_handler import NiceGuiLogElementCallbackHandler
+from Lc_read import load_log,qa_langchain
 
-from nicegui import context, ui
+from nicegui import context,events,ui
 
-OPENAI_API_KEY = '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'  # TODO: set your OpenAI API key here
+OPENAI_API_KEY = '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'  # TODO: set your OpenAI API key here
 
 
 @ui.page('/')
@@ -16,6 +17,21 @@ def main():
 
     messages: List[Tuple[str, str]] = []
     thinking: bool = False
+    
+    
+    with ui.dialog().props('full-width') as dialog:
+        with ui.card():
+            content = ui.markdown()
+
+    def handle_upload(e: events.UploadEventArguments):
+        text = e.content.read().decode('utf-8')
+        
+        # load_log(text)
+        # content.set_content(text)
+        # dialog.open()
+        
+
+    ui.upload(on_upload=handle_upload).props('accept=.out').classes('max-w-full')
 
     @ui.refreshable
     def chat_messages() -> None:
@@ -25,7 +41,7 @@ def main():
             ui.spinner(size='3rem').classes('self-center')
         if context.get_client().has_socket_connection:
             ui.run_javascript('window.scrollTo(0, document.body.scrollHeight)')
-
+    
     async def send() -> None:
         nonlocal thinking
         message = text.value
@@ -34,7 +50,8 @@ def main():
         text.value = ''
         chat_messages.refresh()
 
-        response = await llm.arun(message, callbacks=[NiceGuiLogElementCallbackHandler(log)])
+        # response = await llm.arun(message, callbacks=[NiceGuiLogElementCallbackHandler(log)])
+        response = qa_langchain(message)
         messages.append(('Bot', response))
         thinking = False
         chat_messages.refresh()
