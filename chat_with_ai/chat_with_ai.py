@@ -26,10 +26,16 @@ def main():
     def handle_upload(e: events.UploadEventArguments):
         text = e.content.read().decode('utf-8')
         
-        with open('data.txt', 'w') as file:
-            file.write(text)
-
-        # load_log('data.txt')
+        # show the content of the file
+        content.set_content(text)
+        dialog.open()
+        
+        # save uploaded file
+        save_path = 'uploaded_file.txt'
+        with open(save_path, 'wb') as outfile:
+            outfile.write(text)
+            
+        load_log(save_path)
         
 
     ui.upload(on_upload=handle_upload).props('accept=.out').classes('max-w-full')
