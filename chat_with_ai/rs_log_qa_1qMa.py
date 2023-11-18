@@ -3,7 +3,7 @@ import os
 import json
 from autogen.retrieve_utils import TEXT_FORMATS
 from autogen.agentchat.contrib.retrieve_assistant_agent import RetrieveAssistantAgent
-from autogen.agentchat.contrib.retrieve_ragproxyagent_agent import RetrieveUserProxyAgent
+from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProxyAgent
 import chromadb
 
 config_list = autogen.config_list_from_json(
