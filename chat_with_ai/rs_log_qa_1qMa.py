@@ -18,11 +18,17 @@ config_list = autogen.config_list_from_json(
 assert len(config_list) > 0
 print("models to use: ", [config_list[i]["model"] for i in range(len(config_list))])
 
+# Accepted file formats for that can be stored in 
+# a vector database instance
+
+print("Accepted file formats for `docs_path`:")
+print(TEXT_FORMATS)
+
 gpt_config = {
     "cache_seed": 42,  # change the cache_seed for different trials
     "temperature": 0,
     "config_list": config_list,
-    "timeout": 120,
+    "timeout": 600,
 }
 
 #TODO: change the input context and question
@@ -89,11 +95,23 @@ ragproxyagent = RetrieveUserProxyAgent(
     },
 )
 
-ragproxyagent = autogen.UserProxyAgent(
-   name="Admin",
-   system_message="A human admin. Interact with the planner to discuss the plan. Plan execution needs to be approved by this admin.",
-   code_execution_config=False,
+summarizer = RetrieveAssistantAgent(
+    name="summarizer",
+    system_message="You are a helpful assistant.",
+    llm_config=gpt_config,
 )
+
+Analyst = RetrieveAssistantAgent(
+    name="Analyst",
+    system_message="You are a helpful assistant.",
+    llm_config=gpt_config,
+)
+
+# ragproxyagent = autogen.UserProxyAgent(
+#    name="Admin",
+#    system_message="A human admin. Interact with the planner to discuss the plan. Plan execution needs to be approved by this admin.",
+#    code_execution_config=False,
+# )
 engineer = autogen.AssistantAgent(
     name="Engineer",
     llm_config=gpt_config,
