@@ -1,7 +1,48 @@
+# Auto LogGen
+
+`Auto LogGen` is an innovative application that combines the power of `multi-agent GPT models`, provided by AutoGen, with a user-friendly QA system built on `Streamlit`. This application is designed to revolutionize how users interact with, summarize, and analyze large log files. Auto LogGen aims to transform the complex and time-consuming task of log file analysis into a more manageable, efficient, and interactive process.
+
+## Purpose
+Aiming to:
+1. Summarization and Analysis of Log Files: Automate the process of condensing long log files into concise summaries and extracting actionable insights, enabling users to quickly understand and respond to the data.
+2. Leverage GPT Models for Simplified Log File Processing: Utilize advanced GPT models to interpret and analyze log data, reducing the manual effort and technical expertise required in traditional methods.
+3. Enhance Efficiency and Informed Decision-Making: Streamline data handling processes and provide users with critical information to make well-informed decisions faster and more accurately.
+
+## Keyfeatures
+1. *Dynamic Summarization of Log Files*: Automatically generate concise and relevant summaries of extensive log files, highlighting key information and patterns.
+2. *Interactive and Conversational Interface*: Engage with a chatbot interface to interact with log files using natural language, making the system accessible to users with varying levels of technical expertise.
+3. *Multiple Agents System*: Implement AutoGen's multi-agent system to enhance the application's performance, allowing for more nuanced and comprehensive analysis of log files.
+
+## Quick Start
+
+### 1. Install requirements
+
+```shell
+pip install -r requirements.txt
+```
+
+### 2. Run the Streamlit app
+
+```shell
+streamlit run loggen/app.py
+```
+
+## Development Phases
+1. Preparation and Preprocessing of Log Files: Format and clean log files using `LogParser` to ensure compatibility and optimize them for processing by GPT models.
+2. Building a Front-end Chatbot Interface: Design and develop a user-friendly chatbot interface using Streamlit, enabling users to interact with the system in a conversational manner.
+3. Building Multiple Agents in AutoGen: Develop and integrate *multiple GPT agents* within the AutoGen framework to handle various aspects of log file analysis, one agent for receive the user's input, one agent for summary and one agent for analysis.
+4. Testing the Application:  Tests on the application for functionality, usability, and performance to ensure reliability and effectiveness.
+5. Optimization for Performance: Continuously refine the application, enhancing its speed, accuracy, and user experience.
+
+## Challenges we faces 
+1. Data Complexity and Volume: Handling and processing large and complex log files while maintaining system efficiency and accuracy.
+2. Integration of Advanced AI Models: Seamlessly integrating state-of-the-art GPT models into the application without compromising on performance or scalability.
+3. User Interface Design: Creating an intuitive and responsive chatbot interface that accommodates various user inputs and queries effectively.
+
 # Hackathon Loganalysis Tum 2023 11
 
 Welcome to the "Hackathon Loganalysis Tum 2023 11" repository. This project is part of a broader initiative to develop log analysis tools, as part of a competition hosted by Rohde & Schwarz.
- 
+
 ## Motivation:
 
 In today's data-driven world, handling and understanding large log files is a significant challenge. This hackathon aims to leverage transformer models to simplify this process. The goal is to create a solution that can summarize these log files and provide a user-friendly QA system to interact with the summarized data.
