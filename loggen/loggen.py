@@ -116,7 +116,7 @@ assistant_summarizer.reset()
 assistant_analyst.reset()
 
 assistant_summarizer.max_consecutive_auto_reply = 10  # set the maximum number of consecutive auto rep
-summary_problem = "Summerize the general and concise summary of the given log file under 500 words, mainly focused on all different kinds of unusual ssh actions, such as invalid users and so on. This summerization will be used by experts for debugging, so please make sure it is accurate and do not need to explain simple definitions."
+summary_problem = "Summerize the general and concise summary of the given log file, mainly focused on all different kinds of unusual ssh actions, such as invalid users and so on. This summerization will be used by experts for debugging, so please make sure it is accurate and do not need to explain simple definitions."
 # qa_problem = "Is there any unautorized ssh login try?"
 # qa_problem = "Is there any ssh key generation steps in the log file?"
 ragproxyagent.initiate_chat(assistant_summarizer, problem=summary_problem)

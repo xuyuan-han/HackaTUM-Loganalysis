@@ -1,0 +1,1720 @@
+EventId,EventTemplate,Occurrences
+642f4a95,"Linux version 5.15.73 (oe-user@oe-host) (x86_64-poky-linux-gcc (GCC) 11.3.0, GNU ld (GNU Binutils) 2.38.20220708) #1 SMP PREEMPT Sun May 21 21:05:48 UTC 2023",1
+12e47878,Command line: BOOT_IMAGE=/boot/vmlinuz root=/dev/sda2 video=eDP-1:d ro,1
+75a4ec20,x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers',1
+3b0d78c0,x86/fpu: Supporting XSAVE feature <*> <*> registers',2
+18f896b1,"x86/fpu: xstate_offset[2]: 576, xstate_sizes[2]: 256",1
+6be5d147,"x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.",1
+5ff33315,signal: max sigframe size: 1776,1
+8c537990,BIOS-provided physical RAM map:,1
+b2083c71,BIOS-e820: [mem <*> <*>,17
+9fd41ded,BIOS-e820: [mem <*> ACPI NVS,2
+98b804bc,BIOS-e820: [mem 0x000000003e4db000-0x000000003e55ffff] type 20,1
+9ad2d490,NX (Execute Disable) protection: active,1
+3d40055e,efi: EFI v2.70 by American Megatrends,1
+3c608a17,efi: ACPI 2.0=0x3dcb5000 ACPI=0x3dcb5000 SMBIOS=0x3e390000 SMBIOS 3.0=0x3e38f000 MEMATTR=0x3a4c7018 ESRT=0x3ce10298,1
+8edec36a,SMBIOS 3.2.0 present.,1
+2ec8818a,"DMI: R&S IPSX4_TS_CMP/IPSX4_TS_CMP, BIOS 3.4 11/19/2021",1
+bff8f214,tsc: Fast TSC calibration using PIT,1
+52a514e9,tsc: Detected 3244.097 MHz processor,1
+aec4b6ce,e820: update [mem <*> usable ==> reserved,3
+52d237ce,e820: remove [mem 0x000a0000-0x000fffff] usable,1
+a20e32fd,last_pfn = <*> max_arch_pfn = 0x400000000,2
+1967fe4b,x86/PAT: Configuration [0-7]: WB WC UC- UC WB WP UC- WT,1
+6cb0a82c,esrt: Reserving ESRT space from 0x000000003ce10298 to 0x000000003ce102d0.,1
+78e43dc3,Using GB pages for direct mapping,1
+4d450965,Secure boot could not be determined,1
+de64db5a,ACPI: Early table checksum verification disabled,1
+2b2bf85b,ACPI: RSDP 0x000000003DCB5000 000024 (v02 ALASKA),1
+4892c95c,ACPI: XSDT 0x000000003DCB5098 0000B4 (v01 ALASKA A M I 01072009 AMI 00010013),1
+5a453666,ACPI: FACP 0x000000003DCBD398 000114 (v06 ALASKA A M I 01072009 AMI 00010013),1
+ae7d156e,ACPI: DSDT 0x000000003DCB51E8 0081AA (v02 ALASKA A M I 01072009 INTL 20120913),1
+ac591f40,ACPI: FACS 0x000000003DD1ED80 000040,1
+10da42b9,ACPI: APIC 0x000000003DCBD4B0 0000DE (v03 ALASKA A M I 01072009 AMI 00010013),1
+6326040d,ACPI: FPDT 0x000000003DCBD590 000044 (v01 ALASKA A M I 01072009 AMI 00010013),1
+9d9dbeac,ACPI: FIDT 0x000000003DCBD5D8 00009C (v01 ALASKA A M I 01072009 AMI 00010013),1
+7166abd1,ACPI: SSDT 0x000000003DCBD678 005419 (v02 AMD AmdTable 00000002 MSFT 02000002),1
+23cb2b8f,ACPI: MCFG 0x000000003DCC2A98 00003C (v01 ALASKA A M I 01072009 MSFT 00010013),1
+b83cc67f,ACPI: HPET 0x000000003DCC2AD8 000038 (v01 ALASKA A M I 01072009 AMI 00000005),1
+93d2f7e5,ACPI: UEFI 0x000000003DCC2B10 000042 (v01 ALASKA A M I 00000002 01000013),1
+088f1e36,ACPI: VFCT 0x000000003DCC2B58 00D484 (v01 ALASKA A M I 00000001 AMD 31504F47),1
+99788f42,ACPI: BGRT 0x000000003DCCFFE0 000038 (v01 ALASKA A M I 01072009 AMI 00010013),1
+79050cbe,ACPI: CRAT 0x000000003DCD0018 000810 (v01 AMD AMD CRAT 00000001 AMD 00000001),1
+548555e6,ACPI: CDIT 0x000000003DCD0828 000029 (v01 AMD AMD CDIT 00000001 AMD 00000001),1
+79b13060,ACPI: SSDT <*> <*> (v01 AMD AmdTable 00000001 INTL 20120913),4
+ef1b930b,ACPI: SSDT 0x000000003DCD48E8 000E0C (v01 AMD AMD CPU 00000001 AMD 00000001),1
+9bc067ab,ACPI: WSMT 0x000000003DCD56F8 000028 (v01 ALASKA A M I 01072009 AMI 00010013),1
+415b399c,ACPI: Reserving <*> table memory at [mem <*>,20
+7886c273,Zone ranges:,1
+bb388dd3,DMA [mem 0x0000000000001000-0x0000000000ffffff],1
+3b69a2c3,DMA32 [mem 0x0000000001000000-0x00000000ffffffff],1
+7ad3ed63,Normal [mem 0x0000000100000000-0x00000004bf33ffff],1
+be92f991,Movable zone start for each node,1
+11506259,Early memory node ranges,1
+d726cc1f,node 0: [mem <*>,8
+e7525a91,Initmem setup node 0 [mem 0x0000000000001000-0x00000004bf33ffff],1
+6dc41426,"On node 0, zone <*> <*> pages in unavailable ranges",9
+90ff6a85,ACPI: PM-Timer IO Port: 0x808,1
+efd25aff,ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1]),1
+11f39896,"<*> apic_id <*> version 33, address <*> GSI <*>",2
+ad416b7e,ACPI: INT_SRC_OVR (bus 0 bus_irq <*> global_irq <*> <*> <*>,2
+7af1ba27,ACPI: Using ACPI (MADT) for SMP configuration information,1
+8308b5c6,ACPI: HPET id: 0x10228201 base: 0xfed00000,1
+c6757cc4,"smpboot: Allowing 16 CPUs, 8 hotplug CPUs",1
+a3e3a6e8,[mem 0x40000000-0xf7ffffff] available for PCI devices,1
+48db1558,Booting paravirtualized kernel on bare hardware,1
+79aa2470,"clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns",1
+e52b78b0,setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:16 nr_node_ids:1,1
+955e2354,percpu: Embedded 54 pages/cpu s180504 r8192 d32488 u262144,1
+c26624ae,pcpu-alloc: s180504 r8192 d32488 u262144 alloc=1*2097152,1
+5e3073e9,pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15,1
+4e2837e2,"Built 1 zonelists, mobility grouping on. Total pages: 3859221",1
+a6c195bd,Kernel command line: BOOT_IMAGE=/boot/vmlinuz root=/dev/sda2 video=eDP-1:d ro,3
+197b7840,"Unknown kernel command line parameters ""BOOT_IMAGE=/boot/vmlinuz"", will be passed to user space.",1
+73a2534f,"Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)",1
+8744a3c2,"Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)",1
+74d2f717,"mem auto-init: stack:off, heap alloc:on, heap free:off",1
+695d6875,"Memory: 15183700K/15682568K available (16394K kernel code, 2233K rwdata, 3844K rodata, 59100K init, 1996K bss, 498608K reserved, 0K cma-reserved)",1
+8b4cd3db,"SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1",1
+e5e52d81,ftrace: allocating 47259 entries in 185 pages,1
+29b4737c,ftrace: allocated 185 pages with 5 groups,1
+c0cdb9c5,rcu: Preemptible hierarchical RCU implementation.,1
+c00f38ce,rcu: RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=16.,1
+de83ff12,Trampoline variant of Tasks RCU enabled.,1
+1ff16b6d,Rude variant of Tasks RCU enabled.,1
+598090da,Tracing variant of Tasks RCU enabled.,1
+d515259d,rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.,1
+d994c800,"rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16",1
+ccf0e92a,"NR_IRQS: 4352, nr_irqs: 1096, preallocated irqs: 16",1
+9bf06a58,rcu: Offload RCU callbacks from CPUs: (none).,1
+dcd06890,Console: colour dummy device 80x25,1
+3d03cfc9,printk: console <*> enabled,2
+8978801a,ACPI: Core revision 20210730,1
+9a8142b2,"clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns",1
+998d28fe,APIC: Switch to symmetric I/O mode setup,1
+f20972b9,Switched APIC routing to physical flat.,1
+3edaab8a,..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1,1
+b590ba45,"clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2ec302a148e, max_idle_ns: 440795295306 ns",1
+ccfa3e62,"Calibrating delay loop (skipped), value calculated using timer frequency.. 6488.19 BogoMIPS (lpj=3244097)",1
+991d3dc4,pid_max: default: 32768 minimum: 301,1
+5c020f72,"Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)",1
+0350fd6c,"Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)",1
+e5c6b403,LVT offset <*> assigned for vector <*>,2
+124fdea3,"Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512",1
+61b5e5f9,"Last level dTLB entries: 4KB 1536, 2MB 1536, 4MB 768, 1GB 0",1
+d69b1055,Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization,1
+3730501b,Spectre V2 : Kernel not compiled with retpoline; no mitigation available!,1
+e1348085,Spectre V2 : Vulnerable,1
+e7c549cc,Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch,1
+4b9e9ce1,Spectre V2 : Enabling Speculation Barrier for firmware calls,1
+18e0909f,RETBleed: Vulnerable,1
+f67f35df,Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier,1
+32d50997,Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp,1
+0d59217c,Freeing SMP alternatives memory: 44K,1
+702681eb,"smpboot: CPU0: AMD Ryzen Embedded V1756B with Radeon Vega Gfx (family: 0x17, model: 0x11, stepping: 0x0)",1
+48289507,"Performance Events: Fam17h+ core perfctr, AMD PMU driver.",1
+73533252,... version: 0,1
+4178c8f2,... bit width: 48,1
+456472d6,... generic registers: 6,1
+44d667d2,... value mask: 0000ffffffffffff,1
+ced01eef,... max period: 00007fffffffffff,1
+9803b982,... fixed-purpose events: 0,1
+c0bd3803,... event mask: 000000000000003f,1
+123941b0,rcu: Hierarchical SRCU implementation.,1
+e4359610,smp: Bringing up secondary CPUs ...,1
+b1713fd1,x86: Booting SMP configuration:,1
+570f5713,".... node #0, CPUs: #1 #2 #3 #4 #5 #6 #7",1
+f69905fb,"smp: Brought up 1 node, 8 CPUs",1
+3a553e66,smpboot: Max logical packages: 2,1
+99c93af0,smpboot: Total of 8 processors activated (51905.55 BogoMIPS),1
+993de906,devtmpfs: initialized,1
+b70d418e,ACPI: PM: Registering ACPI NVS region [mem <*> <*> bytes),2
+8f653fbd,"clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns",1
+01a8d701,"futex hash table entries: 4096 (order: 6, 262144 bytes, linear)",1
+cd7e7fc0,NET: Registered <*> protocol family,6
+ae59ac6f,audit: initializing netlink subsys (disabled),1
+fa7ac71d,audit: type=2000 audit(1699535493.145:1): state=initialized audit_enabled=0 res=1,1
+fbf9a4bf,thermal_sys: Registered thermal governor <*>,2
+1254d474,cpuidle: using governor menu,1
+d6fc541a,ACPI: bus type <*> registered,2
+54a08dc6,PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000),1
+4c1f3912,PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820,1
+496165c3,PCI: Using configuration type 1 for base access,1
+4e6027bc,Kprobes globally optimized,1
+b46e0246,raid6: skip pq benchmark and using algorithm avx2x4,1
+fbec2bb1,raid6: using avx2x2 recovery algorithm,1
+f10aeb53,ACPI: Added <*> Device),2
+a2146653,ACPI: Added _OSI(3.0 _SCP Extensions),1
+0df72657,ACPI: Added _OSI(Processor Aggregator Device),1
+744520df,ACPI: Added <*>,3
+ff3bcff8,ACPI: 7 ACPI AML tables successfully acquired and loaded,1
+293ddd74,ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored,1
+3c9bd707,ACPI: Interpreter enabled,1
+7e320736,ACPI: PM: (supports S0 S3 S5),1
+aebadbc0,ACPI: Using IOAPIC for interrupt routing,1
+62f8cc04,"PCI: Using host bridge windows from ACPI; if necessary, use ""pci=nocrs"" and report a bug",1
+79fd5abe,ACPI: Enabled 2 GPEs in block 00 to 1F,1
+3ef08103,ACPI: PM: Power Resource <*>,2
+dc17a396,ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff]),1
+765dba98,acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3],1
+9358e414,acpi PNP0A08:00: _OSC: platform does not support [LTR],1
+1382339c,acpi PNP0A08:00: _OSC: OS now controls [PME AER PCIeCapability],1
+1e0fbd07,acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge,1
+b5f960ea,PCI host bridge to bus 0000:00,1
+f0d5b20a,pci_bus 0000:00: root bus resource <*> <*> window],8
+040c28ee,pci_bus 0000:00: root bus resource [bus 00-ff],1
+4c1cc831,pci <*> <*> type 00 class <*>,33
+945de26c,pci <*> <*> type 01 class 0x060400,16
+0c002012,pci <*> enabling Extended Tags,30
+921f6066,pci <*> PME# supported from D0 D3hot D3cold,22
+447dd24b,"pci <*> <*> Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe <*> link at <*> (capable of <*> Gb/s with 8.0 GT/s PCIe <*> link)",5
+512c6a84,pci <*> <*> <*> [mem <*> 64bit pref],33
+6ea42422,pci <*> PCI bridge to [bus <*>,32
+b6649bd2,pci <*> bridge window <*> <*>,24
+97d06dbe,pci <*> PME# supported from D0 D1 D2 D3hot,3
+8e4ee797,pci <*> reg <*> [mem <*> 64bit],14
+7f9fa214,pci 0000:08:00.0: reg 0x30: [mem 0xf2100000-0xf217ffff pref],1
+49fed7b7,pci <*> PME# supported from <*> <*>,2
+7e539a60,pci 0000:08:00.0: VF(n) <*> space: [mem <*> 64bit pref] (contains <*> for 128 VFs),2
+7153a636,pci 0000:0d:00.0: reg <*> <*> <*>,3
+aeaa49de,pci 0000:0f:00.0: reg <*> <*> <*>,2
+182246f5,pci 0000:0f:00.0: BAR 0: assigned to efifb,1
+98a4a8f5,pci <*> PME# supported from D1 D2 D3hot D3cold,2
+14433c2b,pci <*> reg <*> [mem <*>,8
+844f6fc3,pci_bus 0000:00: on NUMA node 0,1
+ec782012,ACPI: PCI: Interrupt link <*> configured for IRQ 0,8
+836f7325,iommu: Default domain type: Translated,1
+073d92ad,iommu: DMA domain TLB invalidation policy: lazy mode,1
+e7540cb4,"pci 0000:0f:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none",1
+09446d45,pci 0000:0f:00.0: vgaarb: bridge control possible,1
+6e326a6f,pci 0000:0f:00.0: vgaarb: setting as boot device,1
+9380362d,vgaarb: loaded,1
+cecc13aa,SCSI subsystem initialized,1
+cf5181f7,libata version 3.00 loaded.,1
+50241d93,usbcore: registered new <*> driver <*>,16
+b151f1d1,pps_core: LinuxPPS API ver. 1 registered,1
+1ab2d06e,pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>,1
+c9703be2,PTP clock support registered,1
+c80f60e5,Registered efivars operations,1
+4aacee6a,PCI: Using ACPI for IRQ routing,1
+a768cc99,PCI: pci_cache_line_size set to 64 bytes,1
+83d18d46,Expanded resource Reserved due to conflict with PCI Bus 0000:00,1
+0080eff6,e820: reserve RAM buffer [mem <*>,8
+9c2d96f0,"hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0",1
+e53fece1,"hpet0: 3 comparators, 32-bit 14.318180 MHz counter",1
+98086997,clocksource: Switched to clocksource <*>,2
+4b096cf6,pnp: PnP ACPI init,1
+9c9ddba3,system <*> <*> <*> has been reserved,25
+b7f6bf36,system 00:03: [mem <*> could not be reserved,3
+fbe84b53,pnp: PnP ACPI: found 4 devices,1
+92249c43,"clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns",1
+2ba08268,"IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)",1
+f6ec96ad,"tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)",1
+abcadb23,"Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)",1
+ebad4b27,"TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)",1
+eb5039e3,"TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)",1
+29a32788,TCP: Hash tables configured (established 131072 bind 65536),1
+7218fe7f,"UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)",1
+4e1411f0,"UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)",1
+c59a441a,RPC: Registered <*> <*> <*> transport module.,2
+571dd3e3,RPC: Registered <*> transport module.,2
+3cd767ae,pci 0000:08:00.0: BAR <*> <*> <*> <*> [mem size <*> 64bit pref],4
+bcc3be92,"pci_bus 0000:00: Some PCI device resources are unassigned, try booting with pci=realloc",1
+b9f3bbf2,pci_bus 0000:00: resource <*> <*> <*> window],8
+33f537e6,pci_bus <*> resource 1 [mem <*>,10
+f365a3c5,pci_bus <*> resource 2 [mem <*> 64bit pref],8
+fd9006fe,pci_bus <*> resource 0 [io <*>,2
+9be30179,pci 0000:0f:00.1: D0 power state depends on 0000:0f:00.0,1
+95583dcf,pci <*> extending delay after power-on from D3hot to 20 msec,2
+f539d15d,"PCI: CLS 64 bytes, default 64",1
+8d630a2b,PCI-DMA: Using software bounce buffering for IO (SWIOTLB),1
+78f33794,software IO TLB: mapped [mem 0x0000000035c48000-0x0000000039c48000] (64MB),1
+d243021d,"RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer",1
+7c775df4,RAPL PMU: hw unit of domain package 2^-16 Joules,1
+dae90caf,amd_uncore: <*> <*> counters detected,2
+7ffc9060,workingset: timestamp_bits=46 max_order=22 bucket_order=0,1
+e78b515d,squashfs: version 4.0 (2009/01/31) Phillip Lougher,1
+d46b275a,NFS: Registering the id_resolver key type,1
+13298e1e,Key type <*> registered,5
+2281b43a,ntfs3: Max link count 4000,1
+2a90d525,ntfs3: Read-only LZX/Xpress compression included,1
+5677542e,xor: automatically using best checksumming function avx,1
+69dcddd0,Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246),1
+6eb6460b,io scheduler <*> registered,3
+700751e6,pcieport 0000:00:01.1: <*> <*> with IRQ 25,2
+e15bcf84,pcieport 0000:00:01.3: <*> <*> with IRQ 26,2
+a135a7fd,pcieport 0000:00:01.5: <*> <*> with IRQ 27,2
+1b989fdc,pcieport <*> PME: Signaling with IRQ <*>,2
+38e17c50,pcieport 0000:00:08.2: AER: enabled with IRQ 29,1
+c01594de,input: Power Button as <*>,2
+cecde111,ACPI: button: Power Button <*>,2
+58ddd512,"Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled",1
+e26292ca,Non-volatile memory driver v1.3,1
+d38ef32e,Linux agpgart interface v0.103,1
+0442f3ba,hv_vmbus: registering driver <*>,6
+56c16171,brd: module loaded,1
+037e1f8e,loop: module loaded,1
+eb7e5f83,ahci 0000:10:00.0: version 3.0,1
+3dcd0f1a,ahci 0000:10:00.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode,1
+4201448b,ahci 0000:10:00.0: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part,1
+5fff703d,scsi host0: ahci,1
+ca52d22a,ata1: SATA max UDMA/133 abar m2048@0xf2800000 port 0xf2800100 irq 42,1
+b93bc3d2,<*> Intel(R) <*> Network Driver,3
+b075bb30,e100: Copyright(c) 1999-2006 Intel Corporation,1
+2716567e,<*> Copyright (c) <*> Intel Corporation.,2
+22712e08,e1000e: Copyright(c) 1999 - 2015 Intel Corporation.,1
+e479c0de,igb: Intel(R) Gigabit Ethernet Network Driver,1
+d81efa60,igb: Copyright (c) 2007-2014 Intel Corporation.,1
+7bc27014,pps <*> new PPS source <*>,2
+27e76524,igb 0000:0d:00.0: added PHC on eth0,1
+f2468a87,igb 0000:0d:00.0: Intel(R) Gigabit Ethernet Network Connection,1
+c4edc416,igb 0000:0d:00.0: eth0: <*> <*> <*>,2
+67e2c7eb,"igb 0000:0d:00.0: Using MSI-X interrupts. 2 rx queue(s), 2 tx queue(s)",1
+93457119,Intel(R) 2.5G Ethernet Linux Driver,1
+aaf76503,Copyright(c) 2018 Intel Corporation.,1
+f833b2df,igbvf: Intel(R) Gigabit Virtual Function Network Driver,1
+134071a0,igbvf: Copyright (c) 2009 - 2012 Intel Corporation.,1
+616e2b15,ixgbe: Intel(R) 10 Gigabit PCI Express Network Driver,1
+61e76ff1,ixgbevf: Intel(R) 10 Gigabit PCI Express Virtual Function Network Driver,1
+4878c922,ixgbevf: Copyright (c) 2009 - 2018 Intel Corporation.,1
+37e6735e,iavf: Intel(R) Ethernet Adaptive Virtual Function Network Driver,1
+c218cfb0,Copyright (c) 2013 - 2018 Intel Corporation.,1
+d6590a33,ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver,1
+c6ca8267,ehci-pci: EHCI PCI platform driver,1
+c9a6dea6,ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver,1
+a83ce179,ohci-pci: OHCI PCI platform driver,1
+07597abb,uhci_hcd: USB Universal Host Controller Interface driver,1
+50e6c6f0,xhci_hcd <*> xHCI Host Controller,4
+3b0aa1b5,"xhci_hcd <*> new USB bus registered, assigned bus number <*>",4
+84198893,xhci_hcd <*> hcc params <*> hci version 0x110 quirks 0x0000000840000410,2
+ac30b146,xhci_hcd <*> Host supports USB 3.1 Enhanced SuperSpeed,2
+1f89c957,"usb <*> New USB device found, <*> <*> bcdDevice= <*>",33
+980a5e8d,usb <*> New USB device strings: <*> <*> <*>,33
+24c0bb2d,usb <*> Product: xHCI Host Controller,4
+2fcbffc3,usb <*> Manufacturer: Linux 5.15.73 xhci-hcd,4
+6da7c421,usb <*> SerialNumber: <*>,19
+b2764c25,hub <*> USB hub found,16
+c9dda62c,hub <*> <*> ports detected,15
+aabe9eb6,"usb <*> We don't know the algorithms for LPM for this host, disabling LPM.",2
+0c3f9c13,hub 4-0:1.0: 1 port detected,1
+407975ac,cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters,1
+b6f0fbdb,usbserial: USB Serial support registered for <*>,2
+c1fb7dfc,usbserial: USB Serial support registered for FTDI USB Serial Device,1
+e209ac88,i8042: PNP: No PS/2 controller found.,1
+2a619f7a,mousedev: PS/2 mouse device common for all mice,1
+2065dc34,rtc_cmos 00:02: RTC can wake from S4,1
+83dd744b,rtc_cmos 00:02: registered as rtc0,1
+9556ca2b,rtc_cmos 00:02: setting system clock to 2023-11-09T13:11:34 UTC (1699535494),1
+64a871de,"rtc_cmos 00:02: alarms up to one month, y3k, 114 bytes nvram, hpet irqs",1
+c74684fb,i2c_dev: i2c /dev entries driver,1
+7856db8b,"piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0",1
+e7b8797a,piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection,1
+40ede153,"eeprom <*> eeprom driver is deprecated, please use at24 instead",3
+4428b33e,piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20,1
+82bf6a29,fail to initialize ptp_kvm,1
+d85a07b1,efifb: probing for efifb,1
+fbdc3f73,"efifb: framebuffer at 0x40000000, using 1984k, total 1984k",1
+98b545f3,"efifb: mode is 800x600x32, linelength=3328, pages=1",1
+70623125,efifb: scrolling: redraw,1
+ac5a7f0e,"efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0",1
+32356f8d,Console: switching to colour frame buffer device 100x37,1
+d834e467,fb0: EFI VGA frame buffer device,1
+15e06e1d,EFI Variables Facility v0.08 2004-May-17,1
+255d1750,pstore: Registered efi as persistent store backend,1
+577272ec,usbhid: USB HID core driver,1
+5dc5a362,hv_utils: Registering HyperV Utility Driver,1
+7dd1f73a,IPVS: Registered protocols (),1
+927dc662,"IPVS: Connection hash table configured (size=4096, memory=32Kbytes)",1
+a2cd8d17,IPVS: ipvs loaded.,1
+6f3b0c60,Initializing XFRM netlink socket,1
+c27cb6da,Segment Routing with IPv6,1
+6ac365aa,In-situ OAM (IOAM) with IPv6,1
+458406fa,Bridge firewalling registered,1
+25494a42,microcode: <*> patch_level=0x08101016,8
+95e4f698,microcode: Microcode Update Driver: v2.2.,1
+f466163d,IPI shorthand broadcast: enabled,1
+ea8d9e3c,"sched_clock: Marking stable (701415061, 1334742)->(1551022684, -848272881)",1
+521d7e5e,"Btrfs loaded, crc32c=crc32c-generic, zoned=no, fsverity=no",1
+8aba8465,pstore: Using crash dump compression: deflate,1
+84cd459d,netconsole: network logging started,1
+34c1d9df,acpi_cpufreq: overriding BIOS provided _PSD data,1
+23064011,usb <*> new <*> USB device number <*> using xhci_hcd,29
+ec190ed0,usb <*> Product: R&S <*> MIC,11
+1839a1d8,usb <*> Manufacturer: Rohde & Schwarz GmbH & Co. KG,14
+49a1ec89,ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300),1
+d1382076,"ata1.00: ATA-10: SFSA960GM2AK4TO-C-8C-636-STD, SBR10013, max UDMA/133",1
+ceddacac,"ata1.00: 1875385008 sectors, multi 0: LBA48 NCQ (depth 32), AA",1
+29d67aef,ata1.00: Features: Dev-Sleep,1
+d9f0ab7b,ata1.00: configured for UDMA/133,1
+5e96f75f,scsi 0:0:0:0: Direct-Access ATA SFSA960GM2AK4TO- 0013 PQ: 0 ANSI: 5,1
+4ace7739,sd 0:0:0:0: [sda] 1875385008 512-byte logical blocks: (960 GB/894 GiB),1
+70560d1c,sd 0:0:0:0: [sda] Write Protect is off,1
+ec9daee2,sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00,1
+b662d88d,"sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA",1
+6789e353,sda: sda1 sda2,1
+b465d4de,sd 0:0:0:0: [sda] Attached SCSI disk,1
+5845c3ae,Freeing unused kernel image (initmem) memory: 59100K,1
+6808b1ad,Write protecting the kernel read-only data: 22528k,1
+7ecabb21,Freeing unused kernel image <*> gap) memory: <*>,2
+6bbea0ea,Run /init as init process,1
+ca13e933,with arguments:,1
+e2f4b6a4,/init,1
+3c0bafc6,with environment:,1
+28fe26b9,HOME=/,1
+992aa617,TERM=linux,1
+d8beb2d8,BOOT_IMAGE=/boot/vmlinuz,1
+6f935fcb,"Current system time is further ahead 15y after build time, but cannot correct: Invalid argument",2
+e6636348,systemd <*> running in system mode <*> -AUDIT -SELINUX -APPARMOR <*> -SMACK -SECCOMP -GCRYPT -GNUTLS -OPENSSL <*> +BLKID -CURL -ELFUTILS -FIDO2 -IDN2 -IDN -IPTC +KMOD -LIBCRYPTSETUP +LIBFDISK -PCRE2 -PWQUALITY -P11KIT -QRENCODE -BZIP2 <*> -XZ -ZLIB <*> -BPF_FRAMEWORK <*> +UTMP <*> default-hierarchy=hybrid),3
+e5431ed0,Detected architecture x86-64.,3
+f178e470,Running in initial RAM disk.,1
+7bc0bc2a,"No hostname configured, using default hostname.",1
+35659781,Hostname set to <*>,3
+9ad8731d,Initializing machine ID from <*> <*>,2
+7c2d35ce,Queued start job for default target <*> <*> Target.,3
+3f087ac8,Created slice Slice <*>,2
+2e7c532c,Started Dispatch Password Requests to Console Directory Watch.,2
+bea6a3a8,Reached target Initrd <*> File System.,2
+3f508636,Reached target <*> <*>,19
+1482f31a,Reached target <*>,10
+57a2c8a2,Listening on <*> <*> <*> Socket.,3
+28c6b496,Listening on Journal <*> <*>,2
+d4643c42,Listening on Journal Socket.,1
+436a7398,Listening on udev <*> Socket.,4
+4f4b851f,Huge Pages File System was skipped because of a failed condition check (ConditionPathExists=/sys/kernel/mm/hugepages).,2
+aac03f04,Mounting POSIX Message Queue File System...,1
+01f6f27b,Mounting Kernel <*> File System...,3
+af424ff6,Mounting Temporary Directory /tmp...,2
+576cb603,Mounting /var/volatile...,3
+648cff5f,Create List of Static Device Nodes was skipped because of a failed condition check (ConditionFileNotEmpty=/lib/modules/5.15.73/modules.devname).,2
+af764d3a,Starting Load Kernel Module <*>,9
+64292277,Starting Mount sysroot partition...,1
+5c19df95,Rebuild Hardware Database was skipped because of a failed condition check (ConditionNeedsUpdate=/etc).,2
+4c60029f,Starting Journal Service...,3
+31d75fa0,Load Kernel Modules was skipped because all trigger condition checks failed.,1
+ad562b4a,Starting Generate network units from Kernel command line...,3
+2adf2301,Platform Persistent Storage Archival was skipped because of a failed condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).,2
+96c375ea,Starting Apply Kernel Variables...,2
+17ce3d3e,Starting Create Static Device Nodes in /dev...,3
+dea6de80,Starting Coldplug All udev Devices...,2
+440eb43f,Mounted POSIX Message Queue File System.,1
+b526e531,Mounted Kernel <*> File System.,3
+65619550,Mounted Temporary Directory /tmp.,2
+dd1de2e2,Mounted /var/volatile.,2
+ee2af2a4,modprobe@configfs.service: Deactivated successfully.,3
+8268078e,Finished Load Kernel Module <*>,9
+39751c78,modprobe@fuse.service: Deactivated successfully.,2
+70a4293e,Finished Generate network units from Kernel command line.,2
+8881e1c0,Finished Apply Kernel Variables.,2
+86f1c88a,Finished Create Static Device Nodes in /dev.,2
+fb730f5d,Reached target Preparation for Network.,2
+bf60544b,FUSE Control File System was skipped because of a failed condition check (ConditionPathExists=/sys/fs/fuse/connections).,2
+31efabc5,BTRFS: device label root devid 1 transid 1820562 /dev/sda2 scanned by mount (200),1
+fbfd211f,audit: type=1334 <*> <*> op=LOAD,11
+f912a5b0,BTRFS info (device sda2): disk space caching is enabled,2
+48c191bf,BTRFS info (device sda2): <*> <*> <*>,2
+8f506fea,Starting Rule-based Manager for Device Events and Files...,2
+66a2509f,Bind mount volatile <*> was skipped because of a failed condition check <*>,6
+fdfb28e9,Reached target <*> File Systems.,4
+02033daa,Store a System Token in an EFI Variable was skipped because of a failed condition check (ConditionPathExists=/sys/firmware/efi/efivars/LoaderFeatures-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).,2
+074e3611,Starting Automatic Boot Loader Update...,2
+86b8f126,Commit a transient machine-id on disk was skipped because of a failed condition check (ConditionPathIsMountPoint=/etc/machine-id).,2
+425a58f4,Merge System Extension Images into /usr/ and /opt/ was skipped because all trigger condition checks failed.,2
+f8702152,Started Rule-based Manager for Device Events and Files.,2
+c49ff43d,"BTRFS info (device sda2): bdev /dev/sda2 errs: wr 0, rd 0, flush 0, corrupt 2, gen 0",1
+5fd9c94e,Finished Automatic Boot Loader Update.,2
+7e4c4b27,Condition check resulted in /sysroot being skipped.,1
+499c5d80,Finished Mount sysroot partition.,1
+491a7b5e,Mounting Home mount...,1
+d604f8e7,Starting Reload Configuration from the Real Root...,1
+9615c27f,Journal started,2
+4635d140,"Runtime Journal <*> is 8.0M, max 64.0M, 56.0M free.",2
+d1fa5af9,BPF <*> op=LOAD,31
+de56fd90,"Couldn't write '16' to 'kernel/sysrq', ignoring: No such file or directory",2
+de64953e,"/usr/lib/tmpfiles.d/dbus.conf:13: Line references path below legacy directory /var/run/, updating /var/run/dbus/containers → /run/dbus/containers; please update the tmpfiles.d/ drop-in file accordingly.",4
+c1b9c90d,Started Journal Service.,2
+e785276f,<*> Unknown group <*> ignoring,8
+d0781851,Flush Journal to Persistent Storage was skipped because of a failed condition check (ConditionPathExists=!/etc/initrd-release).,1
+40cabb37,"Couldn't find EFI system partition, skipping.",1
+553b6ace,Starting Create Volatile Files and Directories...,3
+c39f5440,Reloading.,1
+be693135,audit: type=1334 <*> prog-id=0 op=UNLOAD,5
+ed9c1c86,BPF prog-id=0 op=UNLOAD,22
+c4da4172,usb <*> Product: SMSC USX101x Reader,3
+ae617a7c,usb <*> Manufacturer: SMSC,3
+ff951e9f,Finished Coldplug All udev Devices.,2
+ced09729,Mounted Home mount.,1
+d07b5305,Finished Create Volatile Files and Directories.,2
+75178fcf,Rebuild Journal Catalog was skipped because of a failed condition check (ConditionNeedsUpdate=/var).,2
+53695138,Update is Completed was skipped because all trigger condition checks failed.,2
+116ba00d,Starting Record <*> <*> in UTMP...,4
+809ea4e0,tsc: Refined TSC clocksource calibration: 3243.890 MHz,1
+56f2a730,"clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2ec23f40941, max_idle_ns: 440795347063 ns",1
+f7e692f0,Finished Record System Boot/Shutdown in UTMP.,2
+79313ef4,Daily Cleanup of Temporary Directories was skipped because of a failed condition check (ConditionPathExists=!/etc/initrd-release).,1
+d39a60d5,Listening on D-Bus <*> Message Bus Socket.,4
+061dde7f,System is tainted: cgroupsv1,1
+dfcedb98,initrd-parse-etc.service: Deactivated successfully.,1
+20c37f5b,Finished Reload Configuration from the Real Root.,1
+cd3f09c4,Using default interface naming scheme 'v250'.,12
+07ae92d9,igb 0000:0d:00.0 <*> renamed from <*>,2
+7c1304e0,Found device SFSA960GM2AK4TO-C-8C-636-STD root.,1
+d8020ca1,Reached target Initrd <*> <*>,2
+b06b90e1,Starting Cleaning Up and Shutting Down Daemons...,1
+1e7e4055,Starting File System Check on /dev/sda2...,1
+53e23e93,"sda2: fsck.btrfs doesn't exist, not checking file system.",1
+a9d45da9,Finished File System Check on /dev/sda2.,1
+e8130788,Stopped target Initrd <*> <*>,2
+990f29b7,Stopped target <*> <*>,7
+ea2a6cee,Stopped target Initrd <*> File System.,2
+1eb564b0,Stopped target Preparation for Network.,1
+0b0aa7fa,systemd-ask-password-console.path: Deactivated successfully.,1
+fd17c553,Stopped Dispatch Password Requests to Console Directory Watch.,1
+6b675f40,dbus.socket: Deactivated successfully.,1
+355514ea,Closed D-Bus System Message Bus Socket.,1
+d2c5bcb9,Stopped target Swaps.,1
+0e8326f9,systemd-coredump.socket: Deactivated successfully.,1
+a8e538af,Closed Process Core Dump Socket.,1
+8496e7b2,systemd-boot-update.service: Deactivated successfully.,1
+2c2ec658,Stopped Automatic Boot Loader Update.,1
+9606d22f,systemd-sysctl.service: Deactivated successfully.,1
+9a100e28,Stopped Apply Kernel Variables.,1
+a62a84b5,systemd-udev-trigger.service: Deactivated successfully.,1
+336af026,Stopped Coldplug All udev Devices.,1
+42f354c6,Stopping Rule-based Manager for Device Events and Files...,1
+4e7b2e40,Stopping Record System Boot/Shutdown in UTMP...,1
+faaf96d5,initrd-cleanup.service: Deactivated successfully.,1
+f6094608,Finished Cleaning Up and Shutting Down Daemons.,1
+55424250,systemd-update-utmp.service: Deactivated successfully.,1
+48d13689,Stopped Record System Boot/Shutdown in UTMP.,1
+c8862da6,systemd-tmpfiles-setup.service: Deactivated successfully.,1
+56f1716f,Stopped Create Volatile Files and Directories.,1
+9ff26d8c,Stopped target <*> File Systems.,2
+f46f3a4e,systemd-udevd.service: Deactivated successfully.,1
+fd1a9711,Stopped Rule-based Manager for Device Events and Files.,1
+181ecc54,systemd-udevd-control.socket: Deactivated successfully.,1
+ee591c15,Closed udev <*> Socket.,2
+d57d966e,systemd-udevd-kernel.socket: Deactivated successfully.,1
+d8d708a6,Starting Cleanup udev Database...,1
+11203a1c,systemd-network-generator.service: Deactivated successfully.,1
+c7be2e5a,Stopped Generate network units from Kernel command line.,1
+e23e8268,systemd-tmpfiles-setup-dev.service: Deactivated successfully.,1
+34662f49,Stopped Create Static Device Nodes in /dev.,1
+8404b6c8,initrd-udevadm-cleanup-db.service: Deactivated successfully.,1
+95c8edcf,Finished Cleanup udev Database.,1
+97d22161,Starting Switch Root...,1
+f4091072,Switching root.,1
+e791c374,Journal stopped,1
+1a4cf43a,Received SIGTERM from PID 1 (systemd).,1
+daaffbb3,"<*> Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.",4
+3963ca15,Configuration file <*> is marked world-writable. Please remove world writability permission bits. Proceeding anyway.,5
+727018be,Configuration file <*> is marked executable. Please remove executable permission bits. Proceeding anyway.,3
+a4769158,"<*> Failed to add dependency on rpcbind.sockets, ignoring: Invalid argument",2
+011aba9d,"/lib/systemd/system/cmximportexport.service:16: Unknown key name 'PartOf' in section 'Service', ignoring.",1
+6a67742b,initrd-switch-root.service: Deactivated successfully.,1
+38e679d5,Stopped Switch Root.,1
+f91a8a7c,"systemd-journald.service: Scheduled restart job, restart counter is at 1.",1
+c49d00fe,Created slice Virtual Machine and Container Slice.,1
+4e23b392,Created slice User and Session Slice.,1
+e01c4147,Started Forward Password Requests to Wall Directory Watch.,1
+8b97fe96,Reached target RPC Port Mapper.,1
+4bfc1215,"tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.",1
+af7f1b41,mount-sysroot.service: Deactivated successfully.,1
+b54e3529,Stopped mount-sysroot.service.,1
+509ef592,Starting RPC Bind...,1
+044c134c,systemd-fsck-root.service: Deactivated successfully.,1
+3ddfe29b,Stopped File System Check on Root Device.,1
+acbe5262,Stopped Journal Service.,1
+94665c2a,Starting Load Kernel Modules...,1
+25233817,CONFIG_CHANGE op=set audit_enabled=1 old=1 auid=4294967295 ses=4294967295 res=1,1
+347e47db,SYSCALL arch=c000003e <*> success=yes <*> <*> <*> <*> <*> items=0 <*> <*> <*> uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) <*> <*> <*> key=(null),119
+40cbde81,"PROCTITLE proctitle=""/lib/systemd/systemd-journald""",1
+d08d6013,Queued start job for default target <*> <*>,2
+75f26ace,systemd-journald.service: Deactivated successfully.,1
+b6f79ad5,Starting Remount Root and Kernel File Systems...,2
+55a565bd,Started RPC Bind.,1
+837c8a53,modprobe@dm-mod.service: Deactivated successfully.,1
+0e440bfe,modprobe@drm.service: Deactivated successfully.,1
+a2beec27,modprobe@loop.service: Deactivated successfully.,1
+7e97bddf,modprobe@tun.service: Deactivated successfully.,1
+0e1b601d,Finished Remount Root and Kernel File Systems.,1
+4f07cb59,Reached target Preparation for Local File Systems.,1
+bb077b94,Mounting Mount snapshot subvolume directory...,1
+9714883a,Mounting Mount <*> directory...,3
+a8fe4d9a,Virtual Machine and Container Storage (Compatibility) was skipped because of a failed condition check (ConditionPathExists=/var/lib/machines.raw).,2
+091af4ef,FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.,1
+a9722168,"var-volatile.mount: Directory /var/volatile to mount over is not empty, mounting anyway.",1
+9f5abf9b,[drm] amdgpu kernel modesetting enabled.,1
+fbe278e5,Mounted Mount snapshot subvolume directory.,1
+51485f63,checking generic (40000000 1f0000) vs hw (40000000 10000000),1
+e4316c9c,Mounted Mount <*> directory.,3
+fd140a3e,Console: switching to colour dummy device 80x25,1
+6c1d1786,amdgpu 0000:0f:00.0: vgaarb: deactivate vga console,1
+61504d09,[drm] initializing kernel modesetting (RAVEN 0x1002:0x15DD 0x1002:0x15DD 0x82).,1
+c1affe70,amdgpu 0000:0f:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled,1
+4fca503d,[drm] register mmio <*> <*>,2
+2eec41e9,[drm] add ip block number <*> <*>,9
+279cff8c,amdgpu 0000:0f:00.0: amdgpu: Fetched VBIOS from VFCT,1
+155d6c82,amdgpu: ATOM BIOS: 113-RAVEN-116,1
+6c90455d,[drm] VCN <*> is enabled in VM mode,2
+34413b8c,[drm] JPEG decode is enabled in VM mode,1
+30879cc2,"[drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit",1
+c0130691,amdgpu 0000:0f:00.0: amdgpu: VRAM: 1024M 0x000000F400000000 - 0x000000F43FFFFFFF (1024M used),1
+3d08c60b,amdgpu 0000:0f:00.0: amdgpu: <*> <*> <*> - <*>,2
+158858ec,"[drm] Detected VRAM RAM=1024M, BAR=1024M",1
+401d3b14,[drm] RAM width 128bits DDR4,1
+22d77781,[drm] amdgpu: <*> of <*> memory <*>,2
+eb9df55c,"[drm] GART: num cpu pages 262144, num gpu pages 262144",1
+4f61fac3,[drm] PCIE GART of 1024M enabled.,1
+2862fa7b,[drm] PTB located at 0x000000F400900000,1
+e1db1317,Starting Flush Journal to Persistent Storage...,2
+9adea67b,amdgpu 0000:0f:00.0: amdgpu: PSP runtime database doesn't exist,1
+a555f626,Time spent on flushing to /var/log/journal/c9b3817a56e249f4a36b56f9eda6b8e6 is 62.299ms for 1198 entries.,1
+66bafc42,"System Journal (/var/log/journal/c9b3817a56e249f4a36b56f9eda6b8e6) is 3.9G, max 4.0G, 5.7M free.",1
+6298f4ca,Received client request to flush runtime journal.,1
+4838b07d,amdgpu: hwmgr_sw_init smu backed is smu10_smu,1
+141007be,[drm] Found VCN firmware Version ENC: 1.13 DEC: 2 VEP: 0 Revision: 3,1
+fa24fcaa,amdgpu 0000:0f:00.0: amdgpu: Will use PSP to load VCN firmware,1
+8c1cb9da,[drm] reserve 0x400000 from 0xf43fc00000 for PSP TMR,1
+2d00b13f,: switchtec_init_pci call,1
+78569589,pci 0000:01:00.1: enabling device (0000 -> 0002),1
+7c6e5ee7,device couldn't be enabled,1
+104d0419,device name cmx_mb7_pcie_sw pci bar0 ==> start: 0x0000000078c00000 length: 0x0000000000400000 flags: 0x0014220c,1
+5c856906,pci <*> ==> mapped to: (%pf?),11
+dcd801e3,<*> blob data],5
+d44cce9c,read microsemi <*> device <*> <*>,2
+2e67b3ce,read microsemi address(0xffffaca7c1402008): firmware version 0x010b008c,1
+a4f6f810,read microsemi address(0xffffaca7c1402010): vendor tab revision 0x001005c1,1
+f94166c9,read microsemi address(0xffffaca7c1402014): table format revision 0x00000076,1
+d43cef66,read microsemi address(0xffffaca7c1402018): partition id 0x00000000,1
+41eb96f2,read microsemi address(0xffffaca7c140201c): config file fmt version 0x00000076,1
+99c73b54,read microsemi <*> <*> running <*>,2
+ff328d09,device id 0x00008563,1
+dc789344,device version 0x00000001,1
+27df6cdf,firmware version 0x010b008c,1
+2551f00f,vendor tab revision 0x001005c1,1
+33158c79,table format revision 0x00000076,1
+27739033,partition id 0x00000000,1
+591dc507,config file fmt version 0x00000076,1
+b47fa82d,config running 0x00030004,1
+6f53be56,img running 0x001e0003,1
+c3e14a97,INIT <*> driver called from pid: <*> (systemd-udevd),2
+566f6489,ATTENTION: <*> driver DISABLED extended kd logging,2
+02c35f9a,we get the Major <*> Minor 0(0x00000000),2
+b7ab54e2,PCI INIT <*> driver,4
+9b6507e9,cmx_mb_bh7 0000:0e:00.0: enabling device (0004 -> 0006),1
+31611ac2,pci <*> ==> flags: 0x0014220c,10
+7195dcdf,pci <*> ==> start: <*> length: <*> flags: 0x0014220c,10
+2c3d9de2,MB reports slot number 1400,1
+ee194341,reset cst routing table - for more detailed outputs switch on the insmod parameter for debug,1
+0899cf85,amdgpu 0000:0f:00.0: amdgpu: <*> optional <*> ta ucode is not available,2
+4e6b5c12,amdgpu 0000:0f:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available,1
+af6a84c2,init trigger shadow register,1
+c8151c48,[drm] kiq ring mec 2 pipe 1 q 0,1
+01378638,[drm] DM_PPLIB: values for <*> clock,2
+9124dafb,"[drm] DM_PPLIB: <*> in kHz, <*> in mV",8
+305358fd,[drm] Display Core initialized with v3.2.149!,1
+65aa2de0,read mrpc status(2) after <*> retries,2
+560788d9,dei temperature 47°C (0x00001261),1
+f7a87692,link up: true,1
+78827e57,link width: 8,1
+2af2825b,link speed: Gen3,1
+8750d3a9,port type: Upstream,1
+31551f59,link 28 status: 0x3400001c 0x83010808 0x00000103,1
+bc44c319,switchtec rohde-schwarz!cmx_mb7_pcie_sw_1401: microsemi management device registered.,1
+aa6ac17e,: microsemi management endpoint attached.,1
+a5dbba91,OPEN <*> driver called from pid: <*> <*>,16
+46d0e4d4,cmx_pps_ast: AST PPS source registered at /dev/pps1,1
+6cc2b03b,cmx_rfu600: loading out-of-tree module taints kernel.,1
+70a588ba,<*> <*> enabling device (0000 -> 0002),8
+4145c60b,i40e: Intel(R) Ethernet Connection XL710 Network Driver,1
+be0bd6bf,i40e: Copyright (c) 2013 - 2019 Intel Corporation.,1
+814a0e4d,rsmic <*> MIC device <*> connected,14
+69b72882,AU reports slot number <*>,3
+6b81c7b1,pci_set_drvdata private_data: <*> pci_data: <*> dma_data <*>,3
+ccb5c72a,DM_BIT_MASK is set to DMA_BIT_MASK_VALUE bit,3
+5a485322,i40e 0000:08:00.0: fw 7.2.60285 api 1.9 nvm 7.20 0x800079f3 0.0.0 [8086:1580] [8086:0000],1
+efce4b8f,R&S NRP power meter driver v4.2.7,1
+fe8ad68d,Make /var/tmp persistent was skipped because of a failed condition check (ConditionPathIsSymbolicLink=/var/tmp).,1
+228c2df2,Finished Flush Journal to Persistent Storage.,1
+11b02e02,i40e 0000:08:00.0: MAC address: 00:90:b8:24:d3:6a,1
+a6d26223,"i40e 0000:08:00.0 eth0: NIC Link is Up, 10 Gbps Full Duplex, Flow Control: None",1
+128a9eb7,i40e 0000:08:00.0: PCI-Express: Speed 8.0GT/s Width x4,1
+77718531,i40e 0000:08:00.0: PCI-Express bandwidth available for this device may be insufficient for optimal performance.,1
+4600773b,i40e 0000:08:00.0: Please move the device to a different PCI-e link with more lanes and/or higher transfer rate.,1
+8975b919,i40e 0000:08:00.0: Features: PF-id[0] VFs: 128 VSIs: 130 QP: 8 RSS FD_ATR FD_SB NTUPLE VxLAN Geneve PTP VEPA,1
+effdbf9a,i40e 0000:08:00.0 eth_internal: renamed from eth0,1
+9aafe0ec,[drm] forcing eDP-1 connector off,1
+1c90e8a6,[drm:dc_link_detect_helper [amdgpu]] *ERROR* No EDID read.,1
+bda81e77,[drm] VCN decode and encode initialized successfully(under SPG Mode).,1
+55d175b8,"amdgpu 0000:0f:00.0: amdgpu: SE 1, SH per SE 1, CU per SH 11, active_cu_number 8",1
+4dfef1ae,amdgpu 0000:0f:00.0: [drm] Cannot find any crtc or sizes,1
+339c50f5,amdgpu 0000:0f:00.0: amdgpu: ring <*> uses VM inv eng <*> on hub <*>,15
+bed7f30b,[drm] Initialized amdgpu 3.42.0 20150101 for 0000:0f:00.0 on minor 0,1
+f0a4b34e,Inserted module 'amdgpu',1
+a40d6ae9,Finished Load Kernel Modules.,1
+569ea8b7,Started Watch for MRT chromium installation.,1
+e523a3aa,Started Daily <*> of <*> <*>,2
+f17275c0,Started Timer that triggers smartmontools data collection periodically.,1
+35c8f8a9,Listening on Avahi mDNS/DNS-SD Stack Activation Socket.,1
+0ca9565a,Starting Docker Socket for the API...,1
+645f2334,Listening on PC/SC Smart Card Daemon Activation Socket.,1
+bed590ec,Starting sshd.socket...,1
+3af391fe,Listening on Docker Socket for the API.,1
+d7e02c12,Listening on sshd.socket.,1
+654fac68,Starting Avahi mDNS/DNS-SD Stack...,1
+835d1574,Starting CMX Import Export services...,1
+8d0a435b,cgroup compatibility translation between legacy and unified hierarchy settings activated. See cgroup-compat debug messages for details.,1
+ba294abd,Started CMXmars Server.,1
+b42ab7a9,Starting D-Bus System Message Bus...,2
+d8c50f36,random: avahi-daemon: uninitialized urandom read (4 bytes read),1
+efbf6ede,Found user 'avahi' (UID 998) and group 'avahi' (GID 998).,1
+0a88c350,Successfully dropped <*> <*>,2
+54fc1196,avahi-daemon 0.8 starting up.,1
+c6fa2a27,Starting DUT-Related Services...,1
+339c3e9c,Starting CMXmars Server version 1.120.11-1kirkstone...,1
+886a1be5,random: dbus-daemon: uninitialized urandom read (12 bytes read),2
+ab6c61be,Starting <*> Packet Filtering Framework...,2
+e2da7327,Starting MRT Primary ZMQ Broker...,1
+8192a395,Starting Health Service...,1
+295354de,Starting Cleanup stale mrt-chromium containers...,1
+031dfd07,Started Node Exporter for MRT System Monitoring.,1
+8daf362f,Starting Script that periodically evaluates the main S.M.A.R.T metrics and prepares them for node_exporter...,1
+c4a1391f,Starting MRT <*> <*>,2
+0fbf7307,ERROR: Could not statfs: No such file or directory,1
+ca5040cc,Starting MRT System Monitoring daemon...,1
+ed92dc74,Started Run MRT <*>,2
+4034bb4a,Started PC/SC Smart Card Daemon.,1
+3547296b,Started Hardware RNG Entropy Gatherer Daemon.,1
+bcba8ec4,Starting User Login Management...,2
+8f53db79,Starting Disk Manager...,1
+7d8ab45d,Successfully called chroot().,1
+edbea01a,../../avahi-0.8/avahi-daemon/chroot.c: open() failed: No such file or directory,1
+bb6a31d4,Failed to open /etc/resolv.conf: Invalid argument,1
+63856fcf,Loading service file /services/rs-installation-service.service.,1
+bee107ad,Starting Xserver startup with a display manager...,2
+2b8470f5,Joining mDNS multicast group on interface <*> with address <*>,13
+dbc8d0a9,New relevant interface <*> for mDNS.,13
+feef7a9b,Network interface enumeration completed.,1
+314acc1e,Registering new address record for <*> on <*>,13
+1dff7685,Starting OpenSSH Key Generation...,1
+b4c06e6c,Started D-Bus System Message Bus.,1
+b8f0c225,"ts=2023-11-09T13:11:37.724Z caller=node_exporter.go:180 level=info msg=""Starting node_exporter"" version=""(version=1.5.0, branch=HEAD, revision=1b48970ffcf5630534fb00bb0687d73c66d1c959)""",1
+580d4cb9,"ts=2023-11-09T13:11:37.724Z caller=node_exporter.go:181 level=info msg=""Build context"" build_context=""(go=go1.19.3, user=root@6e7732a7b81b, date=20221129-18:59:09)""",1
+9a3f8aba,"ts=2023-11-09T13:11:37.724Z caller=diskstats_common.go:111 level=info collector=diskstats msg=""Parsed flag --collector.diskstats.device-exclude"" flag=^(ram|loop|fd|(h|s|v|xv)d[a-z]|nvme\d+n\d+p)\d+$",1
+6600e5ea,"ts=2023-11-09T13:11:37.725Z caller=node_exporter.go:110 level=info msg=""Enabled collectors""",1
+f2b71ec9,ts=2023-11-09T13:11:37.725Z caller=node_exporter.go:117 level=info <*>,12
+22f62c78,"ts=2023-11-09T13:11:37.725Z caller=tls_config.go:232 level=info msg=""Listening on"" address=[::]:9100",1
+65690fbb,"ts=2023-11-09T13:11:37.726Z caller=tls_config.go:235 level=info msg=""TLS is disabled."" http2=false address=[::]:9100",1
+c024f53c,Started CMX Import Export services.,1
+dadedc46,Started DUT-Related Services.,1
+d779f627,Finished <*> Packet Filtering Framework.,2
+d4f8e5a8,Starting Network Manager...,1
+d2d84d93,Started Avahi mDNS/DNS-SD Stack.,1
+e08deeb7,Initializing available sources,1
+2dab9148,[hwrng ]: Initialization Failed,1
+3292f029,rm: cannot remove <*> No such file or directory,2
+d404f50f,Finished Cleanup stale mrt-chromium containers.,1
+5240f89c,[rdrand]: Enabling RDSEED rng support,1
+4f3811cf,[rdrand]: Initialized,1
+c26f285d,Started MRT Primary ZMQ Broker.,1
+40502b2c,Started MRT Frequency Band Definitions.,1
+835e6e0e,PID: 448,1
+0d632172,[jitter]: Initializing AES buffer,1
+f9b33e27,udisks daemon version 2.9.4 starting,1
+503f808d,-----------------------------------------------------------------------------,2
+181fd6f8,- Started Health Service -,1
+0c691d75,random: crng init done,1
+750264b4,random: 4 urandom warning(s) missed due to ratelimiting,1
+af730486,Started Health Service.,1
+c4f1065e,Started Device API endpoint for Health Service.,1
+23dbe969,"[system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.2' (uid=0 pid=414 comm=""/usr/libexec/udisks2/udisksd"")",1
+1accfbbe,Starting Authorization Manager...,1
+0b85dfcc,Started polkitd version 0.119,1
+6060134e,usb 3-2.2.7: Product: R&S Link Unit MIC,1
+cc9d33e6,Running CMXmarsServer as 64-bit process.,1
+ec5c74d1,Started Xserver startup with a display manager.,2
+f65f791e,Server startup complete. Host name is CMX50070-101776.local. Local service cookie is 1795265994.,1
+9df24a7f,mrt.smartmon-collector.service: Deactivated successfully.,1
+d43415ef,Finished Script that periodically evaluates the main S.M.A.R.T metrics and prepares them for node_exporter.,1
+89b370c7,X.Org X Server <*>,2
+f4481018,"X Protocol Version 11, Revision 0",2
+d5c7702c,Current Operating System: Linux CMX50070-101776 5.15.73 #1 SMP PREEMPT Sun May 21 21:05:48 UTC 2023 x86_64,2
+d41d8cd9,,7
+4c5743cc,Current version of pixman: 0.40.0,2
+ccdfbc70,"Before reporting problems, check http://wiki.x.org",2
+0c54f803,to make sure that you have the latest version.,2
+ffdf70e6,"Markers: (--) probed, (**) from config file, (==) default setting,",2
+81143f5e,"(++) from command line, (!!) notice, (II) informational,",2
+b59aac41,"(WW) warning, (EE) error, (NI) not implemented, (??) unknown.",2
+ea2da8bd,"(==) Log file: ""/var/log/Xorg.0.log"", Time: Thu Nov 9 <*> 2023",2
+3a59bfef,"(==) Using config directory: ""/etc/X11/xorg.conf.d""",2
+fec84307,"(==) Using system config directory ""/usr/share/X11/xorg.conf.d""",2
+6d44c036,Create subvolume '//swapspace',1
+2b8dc90e,aboput to create /swapspace/swapfile with size 15G,1
+05bd03e3,Loading rules from directory <*>,2
+c1cef87e,Finished OpenSSH Key Generation.,1
+f2bb95c7,New seat seat0.,1
+4b96fad1,"Finished loading, compiling and executing 8 rules",1
+9d93b6c3,Watching system buttons on <*> (Power Button),2
+f87cc0a7,Started User Login Management.,1
+de230850,[system] Successfully activated service <*>,5
+b1d5a292,Started Authorization Manager.,1
+6ef01480,<info> [1699535499.1334] NetworkManager (version 1.36.2) is starting... (for the first time),1
+182ed0a8,<info> [1699535499.1335] Read config: /etc/NetworkManager/NetworkManager.conf,1
+48261310,Acquired the name org.freedesktop.PolicyKit1 on the system bus,1
+084f6767,Started Network Manager.,1
+907a41de,"<info> [1699535499.1469] bus-manager: acquired D-Bus service ""org.freedesktop.NetworkManager""",1
+35631405,Started DAPILogger.,1
+d0305d4c,Starting Network Manager Wait Online...,1
+f64f7795,<info> [1699535499.1519] manager[0x56268e816090]: monitoring kernel firmware directory '/lib/firmware'.,1
+506fc764,Started TestCaseStatusService.,1
+c6069013,Starting containerd container runtime...,1
+907562e3,Started LogFileCollector.,1
+35bfca23,"[system] Activating via systemd: service <*> <*> requested by ':1.6' (uid=0 pid=432 comm=""/usr/sbin/NetworkManager --no-daemon"")",3
+60d9b2d0,Starting The NGINX HTTP and reverse proxy server...,1
+38d3b567,Started rspias (Debian Package Installer).,1
+1b40c32b,Starting Simple Network Management Protocol (SNMP) Daemon....,1
+130d5e05,Couldn't stat device <*> No such file or directory,2
+f034c3da,Starting Container mrt-chromium...,1
+fce63473,Starting Permit User Sessions...,1
+1dfdf701,kauditd_printk_skb: <*> callbacks suppressed,5
+5b1f1a91,Starting Hostname Service...,1
+c3100ef6,Finished Permit User Sessions.,1
+b7da5438,Started rspias-daemon,1
+04ebf6e4,Change config: <*>,11
+4461ad30,Configuration read from file <*>,3
+ea35fa71,"Installation Assistant Sample V <*>, Copyright: 2021 Rohde & Schwarz GmbH & Co. KG",1
+cf3b5abe,Will NOT check signatures,1
+485ab566,Service is listening for 2 Material Number(s):,1
+2d5cc347,1201.0002k70,1
+c0cb5f0f,",",1
+4e624ed7,__SWP_Tool__,1
+df1bf921,Server ist listening for DeviceGroup: DEFAULT,1
+44cd7046,"Service ""CMX50070-101776"" (/services/rs-installation-service.service) successfully established.",2
+0d90022d,"Setting up swapspace version 1, size = 15 GiB (16106123264 bytes)",1
+fcfa46f9,"no label, UUID=7cfc7991-33a5-42bc-8c43-b71830e6162f",1
+23bc168e,done creating /swapspace/swapfile,1
+9fda59d1,about to enabl swapping on /swapspace/swapfile,1
+4f6269e7,nginx: the configuration file /etc/nginx/nginx.conf syntax is ok,1
+3a6c3a0e,Started Hostname Service.,1
+85b8489c,nginx: configuration file /etc/nginx/nginx.conf test is successful,1
+62e47cbc,Started The NGINX HTTP and reverse proxy server.,1
+7f174fdd,<info> [1699535499.3372] hostname: hostname: using hostnamed,1
+345459ef,"<info> [1699535499.3373] hostname: static hostname changed from (none) to ""CMX50070-101776""",1
+37adec1b,"<info> [1699535499.3381] dns-mgr[0x56268e7f3250]: init: dns=default,systemd-resolved rc-manager=symlink (auto)",1
+d1c8496e,<info> <*> manager: rfkill: <*> enabled by radio killswitch; enabled by state file,2
+7296036b,<info> [1699535499.3536] manager: Networking is enabled by state file,1
+5d9674eb,<info> <*> settings: Loaded settings plugin: <*> <*>,2
+8ac20f01,Started Disk Manager.,1
+cf670cc6,Starting Network Manager Script Dispatcher Service...,2
+ee59a6f8,<info> [1699535499.3805] ifupdown: management mode: unmanaged,1
+5f4bfad9,<info> [1699535499.3805] ifupdown: interfaces file /etc/network/interfaces doesn't exist,1
+11d8c3ee,"<warn> [1699535499.3895] keyfile: load: ""/etc/NetworkManager/system-connections/Wired connection 1.nmconnection"": failed to load connection: invalid connection: connection.interface-name: 'place_holder_nmcli': interface name is longer than 15 characters",1
+39ae2c0b,Acquired the name org.freedesktop.UDisks2 on the system message bus,1
+16a3ed3f,Started Network Manager Script Dispatcher Service.,2
+27aabb00,<info> [1699535499.4004] dhcp-init: Using DHCP client 'internal',1
+8cb5200a,<info> <*> device <*> carrier: link connected,7
+2cff409d,<info> <*> manager: <*> new <*> device <*>,12
+c162bc03,<info> [1699535499.4030] settings: (eth_external): created default wired connection 'Wired connection 1',1
+6a05fd50,<info> <*> device <*> state change: <*> -> <*> (reason <*> sys-iface-state: <*>,41
+f0e65649,Adding 15728636k swap on /swapspace/swapfile. Priority:-2 extents:45 across:135307972k FS,1
+954537c2,enabled swapping,1
+cc66f048,Finished MRT Swap enabler.,1
+e29e21c7,IPv6: ADDRCONF(NETDEV_CHANGE): <*> link becomes ready,6
+9d4710f4,<info> [1699535499.4979] policy: auto-activating connection 'eth_internal' (6e066520-516a-3fc4-ab25-283e978d629f),1
+82df635a,<info> <*> device <*> Activation: starting connection <*> <*>,4
+2f7c7c80,<info> <*> manager: NetworkManager state is now <*>,6
+5ea59ac5,"<info> <*> device <*> Activation: successful, device activated.",5
+36f536e3,Setting hostname to CMX50070-101776,1
+f4831626,Publish update:,70
+bc8a18b6,################################################################################,140
+f3cb5784,ID: 0,1
+c9a8679a,State: 1,1
+7924910f,Progress: [0],1
+c90daa15,Reliability: [0],70
+6c6eb9ea,Num HW: 0,70
+771d9227,"time=""2023-11-09T13:11:39.583133334Z"" level=info msg=""starting containerd"" revision=d12516713c315ea9e651eb1df89cf32ff7c8137c.m version=v1.6.1-4-gd12516713.m",1
+08019fe0,"<*> level=info msg=""loading plugin <*> <*>",39
+0784ed1c,"time=""2023-11-09T13:11:39.642724531Z"" level=info msg=""skip loading plugin \""io.containerd.snapshotter.v1.aufs\""..."" error=""aufs is not supported (modprobe aufs failed: exit status 1 \""modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.73\\n\""): skip plugin"" type=io.containerd.snapshotter.v1",1
+31aa37bb,"time=""2023-11-09T13:11:39.642828135Z"" level=warning msg=""failed to load plugin io.containerd.snapshotter.v1.devmapper"" error=""devmapper not configured""",1
+ffcf5908,"time=""2023-11-09T13:11:39.643352561Z"" level=info msg=""skip loading plugin \""io.containerd.snapshotter.v1.zfs\""..."" error=""path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin"" type=io.containerd.snapshotter.v1",1
+7d18a44e,"time=""2023-11-09T13:11:39.643441228Z"" level=warning msg=""could not use snapshotter devmapper in metadata plugin"" error=""devmapper not configured""",1
+49726a0e,"time=""2023-11-09T13:11:39.643469271Z"" level=info msg=""metadata content store policy set"" policy=shared",1
+78e841d9,"time=""2023-11-09T13:11:39.695874707Z"" level=info msg=""skip loading plugin \""io.containerd.tracing.processor.v1.otlp\""..."" error=""no OpenTelemetry endpoint: skip plugin"" type=io.containerd.tracing.processor.v1",1
+ff16350b,"time=""2023-11-09T13:11:39.695994893Z"" level=error msg=""failed to initialize a tracing processor \""otlp\"""" error=""no OpenTelemetry endpoint: skip plugin""",1
+fd9384f2,"time=""2023-11-09T13:11:39.697034708Z"" level=info msg=""Start cri plugin with config {PluginConfig:{ContainerdConfig:{Snapshotter:overlayfs DefaultRuntimeName:runc DefaultRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} UntrustedWorkloadRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} Runtimes:map[runc:{Type:io.containerd.runc.v2 Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[BinaryName: CriuImagePath: CriuPath: CriuWorkPath: IoGid:0 IoUid:0 NoNewKeyring:false NoPivotRoot:false Root: ShimCgroup: SystemdCgroup:false] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0}] NoPivot:false DisableSnapshotAnnotations:true DiscardUnpackedLayers:false IgnoreRdtNotEnabledErrors:false} CniConfig:{NetworkPluginBinDir:/opt/cni/bin NetworkPluginConfDir:/etc/cni/net.d NetworkPluginMaxConfNum:1 NetworkPluginConfTemplate: IPPreference:} Registry:{ConfigPath: Mirrors:map[] Configs:map[] Auths:map[] Headers:map[]} ImageDecryption:{KeyModel:node} DisableTCPService:true StreamServerAddress:<*> StreamServerPort:0 StreamIdleTimeout:4h0m0s EnableSelinux:false SelinuxCategoryRange:1024 SandboxImage:k8s.gcr.io/pause:3.6 StatsCollectPeriod:10 SystemdCgroup:false EnableTLSStreaming:false X509KeyPairStreaming:{TLSCertFile: TLSKeyFile:} MaxContainerLogLineSize:16384 DisableCgroup:false DisableApparmor:false RestrictOOMScoreAdj:false MaxConcurrentDownloads:3 DisableProcMount:false UnsetSeccompProfile: TolerateMissingHugetlbController:true DisableHugetlbController:true DeviceOwnershipFromSecurityContext:false IgnoreImageDefinedVolumes:false NetNSMountsUnderStateDir:false EnableUnprivilegedPorts:false EnableUnprivilegedICMP:false} ContainerdRootDir:/var/lib/containerd ContainerdEndpoint:/run/containerd/containerd.sock RootDir:/var/lib/containerd/io.containerd.grpc.v1.cri StateDir:/run/containerd/io.containerd.grpc.v1.cri}""",1
+53e31d88,"time=""2023-11-09T13:11:39.697238631Z"" level=info msg=""Connect containerd service""",1
+62b0b148,"time=""2023-11-09T13:11:39.697500674Z"" level=info msg=""Get image filesystem path \""/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs\""""",1
+b5e799c5,"time=""2023-11-09T13:11:39.698413611Z"" level=error msg=""failed to load cni during init, please check CRI plugin status before setting up network for pods"" error=""cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config""",1
+d9a7bf0f,"time=""2023-11-09T13:11:39.698788205Z"" level=info msg=""Start subscribing containerd event""",1
+667e8cb5,<*> level=info msg=serving... <*>,2
+3ff3069b,"time=""2023-11-09T13:11:39.698880338Z"" level=info msg=""Start recovering state""",1
+962fe54b,"time=""2023-11-09T13:11:39.698997809Z"" level=info msg=""containerd successfully booted in 0.117270s""",1
+4b18d787,Started containerd container runtime.,1
+7a8e3c94,"time=""2023-11-09T13:11:39.699106002Z"" level=info msg=""Start event monitor""",1
+98e077b0,"time=""2023-11-09T13:11:39.699143653Z"" level=info msg=""Start snapshots syncer""",1
+998384f7,"time=""2023-11-09T13:11:39.699199157Z"" level=info msg=""Start cni network conf syncer for default""",1
+8714dd22,"time=""2023-11-09T13:11:39.699241116Z"" level=info msg=""Start streaming server""",1
+09d6c752,Turning on AgentX master support.,1
+43c28e5a,error finding row index in _ifXTable_container_row_restore,5
+368459d3,Started MRT System Monitoring daemon.,1
+1cb6e90f,NET-SNMP version 5.9.1,1
+8f7a9b89,Started Simple Network Management Protocol (SNMP) Daemon..,1
+8e6235d4,Started R&S Health and Utilization Monitoring.,1
+c833fc4a,"2023-11-09T13:11:40,091904998+00:00 mrt.sysmond 0.8.6 starting",1
+81573563,"2023-11-09T13:11:40,105446988+00:00 Configuration values for /opt/rohde-schwarz/mrt.sysmond/start-mrt.sysmond.sh",1
+295ff8fe,"2023-11-09T13:11:40,111514465+00:00 Configurable options:",1
+94facbbb,"2023-11-09T13:11:40,121214412+00:00 SYSMOND_LOG_CADENCE= ""1""",1
+2c7ec188,"2023-11-09T13:11:40,130751853+00:00 SYSMOND_LOG_ROTATION= ""10800""",1
+d171f8c3,"2023-11-09T13:11:40,134711718+00:00 SYSMOND_LOAD_IGNORE= ""5""",1
+3cdc24c5,"2023-11-09T13:11:40,138923877+00:00 SYSMOND_WATCH_FOR= ""-A""",1
+740e86c0,"2023-11-09T13:11:40,144933997+00:00 SYSMOND_SNAP_NUMBER= """"",1
+033a7841,The XKEYBOARD keymap compiler (xkbcomp) reports:,2
+75eda318,> Warning: Could not resolve keysym XF86EmojiPicker,2
+1089b05d,"2023-11-09T13:11:40,148557479+00:00 SYSMOND_LOG_PATH= ""/home/instrument/fw/log""",1
+2e7364a6,Errors from xkbcomp are not fatal to the X server,2
+4b32ddfd,"2023-11-09T13:11:40,154344399+00:00",1
+98a20e76,"2023-11-09T13:11:40,167283616+00:00 Non-configurable options:",1
+e494c78a,"2023-11-09T13:11:40,169602836+00:00 SYSMOND_LOG_NAME= ""sysmond_main""",1
+e8d75fff,"2023-11-09T13:11:40,173715969+00:00 SYSMOND_LOG_P_NAME= ""sysmond_processes""",1
+5c6ad51e,"2023-11-09T13:11:40,181057262+00:00",1
+a3016500,"2023-11-09T13:11:40,183703537+00:00 Internal values:",1
+7a01ef0c,/opt/rohde-schwarz/mrt.sysmond/start-mrt.sysmond.sh: line 230: Log: command not found,1
+ca1f68fb,"2023-11-09T13:11:40,190497049+00:00 NMON_SNAP= ""/opt/rohde-schwarz/mrt.sysmond/mrt.sysmond-snap.sh""",1
+44a8a6ae,"2023-11-09T13:11:40,194197055+00:00 SYSMOND_SNAP_HEADER= ""PROCESS,Time,pid,tid,psr,total_load,kernel_load,userspace_load,command,vsz,rss""",1
+89535e95,"2023-11-09T13:11:40,206817052+00:00 SYSMOND_SNAP_PSARGS= ""-o pid=,tid=,psr=,vsz=,rss=,args= --sort -rss,-%mem,-%cpu,-cputimes""",1
+fd3b5669,"2023-11-09T13:11:40,209608330+00:00 COMPRESSION_FN= ""/usr/bin/zstd -v -f -5 --rm""",1
+5797e5ec,"2023-11-09T13:11:40,222995439+00:00 Installed signal handlers, about to start nmon...",1
+9c45891f,"2023-11-09T13:11:40,237492625+00:00 Rotate logs...",1
+5bfcc985,D-BUS per-session daemon address is: <*>,2
+a5279cbd,<*> Compress log <*>,2
+9900114b,"*** zstd command line interface 64-bits v1.5.2, by Yann Collet ***",2
+1c652b7a,server does not have extension for -dpms option,2
+cb5d2928,Successful su for xuser by root,2
+1d62cea0,+ ??? root:xuser,2
+70d09c6a,pam_unix(su:session): session opened for user xuser(uid=2000) by (uid=0),2
+fe52f00d,Created slice User Slice of UID <*>,2
+e40f02f0,Starting User Runtime Directory <*>,2
+4e6a7bf7,New session <*> of user <*>,4
+e593c442,Finished User Runtime Directory <*>,2
+87c93d01,Starting User Manager for UID <*>,2
+7b5b628a,pam_warn(systemd-user:setcred): function=[pam_sm_setcred] flags=0x8002 service=[systemd-user] terminal=[<unknown>] <*> ruser=[<unknown>] rhost=[<unknown>],2
+9dc0d27c,audit: type=1006 <*> <*> uid=0 old-auid=4294967295 <*> tty=(none) old-ses=4294967295 <*> res=1,2
+e70dbcc7,audit: type=1300 <*> arch=c000003e <*> success=yes <*> <*> <*> <*> <*> items=0 <*> <*> <*> uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) <*> <*> <*> key=(null),12
+fc8735e6,audit: type=1327 <*> <*>,12
+1a642d58,"PROCTITLE proctitle=""(systemd)""",4
+0bc32f5c,stderr:,1
+c2f65775,stdout: enabled,1
+0de6ef64,return code: 0,1
+ad769e9e,using port: 5555,1
+3ad4f357,[HPM] Proxy created: / -> <*>,2
+c241260f,"[system] Activating via systemd: service name='org.freedesktop.machine1' unit='dbus-org.freedesktop.machine1.service' requested by ':1.22' (uid=0 pid=891 comm=""systemd-nspawn --quiet --keep-unit --boot --link-j"")",1
+5217cec3,"Failed to mount /etc/localtime (type n/a) on /usr/lib/machines/.#machine.mrt-chromiumdaefec21ba27af7a/etc/localtime (MS_BIND """"): No such file or directory",1
+902f75db,Created slice User Application Slice.,2
+0c87ff54,Starting D-Bus User Message Bus Socket...,2
+e08049ef,Started User Manager for UID <*>,2
+b7128498,Started Session <*> of User <*>,4
+1c47d478,Reached target Main User Target.,2
+360bc5b1,Startup finished in <*>,2
+ee22981f,Starting Virtual Machine and Container Registration Service...,1
+76050ab5,<*> Compression done,2
+f362227a,New machine mrt-chromium.,1
+f40789f7,Started Virtual Machine and Container Registration Service.,1
+f0bcfaba,Started Container mrt-chromium.,1
+4485e99b,matchbox: Cant find a keycode for keysym <*>,6
+05383943,matchbox: ignoring key shortcut <*>,4
+a2065ce8,matchbox: ignoring key shortcut XF86Start=!matchbox-remote -desktop,2
+3fe42b8e,NET-SNMP version 5.9.1 AgentX subagent connected,1
+1bfefd65,Failed to get shell PTY: There is no system bus in container mrt-chromium.,1
+af90169c,pam_unix(su:session): session closed for user xuser,1
+5abfec65,"PROCTITLE proctitle=""/lib/systemd/systemd""",5
+3a3dbb7d,Detected virtualization systemd-nspawn.,1
+024f9823,Welcome to Poky (Yocto Project Reference Distro) 4.0 (kirkstone)!,1
+55be6e61,Installed transient /etc/machine-id file.,1
+4e914308,xinit: connection to X server lost,1
+877aa68a,X connection to :0 broken (explicit kill or server shutdown).,1
+96637177,waiting for X server to shut down,1
+3e4df626,<*> Deactivated successfully.,17
+0acde268,Removed session c1.,1
+dc068d49,(II) Server terminated successfully (0). Closing log file.,1
+9ac28e33,[ OK ] Created slice Slice <*>,3
+b088a64b,[ OK ] Created slice User and Session Slice.,1
+6e9c2d21,[ OK ] Started <*> Password Requests to <*> Directory Watch.,2
+56f9b61c,[ OK ] Reached target <*> <*>,8
+9e22c480,[ OK ] Reached target <*> <*> <*>,3
+9a12c9ba,[ OK ] <*> <*> <*>,3
+91831fd4,[ OK ] Listening on <*> <*> <*> <*>,2
+09e003aa,[ OK ] Listening on Journal Socket (/dev/log).,1
+9640aa67,[ OK ] Listening on Journal Socket.,1
+e947cb0d,systemd-journald.service: Attaching egress BPF program to cgroup /sys/fs/cgroup/unified/system.slice/systemd-journald.service failed: Invalid argument,1
+3a3b9639,[ OK ] Finished Generate network units from Kernel command line.,1
+ab17d3f7,"2023-11-09T13:11:41,115937816+00:00 Rotation done",1
+79e35490,"2023-11-09T13:11:41,200881918+00:00 Launching nmon...",1
+f8106a64,"2023-11-09T13:11:41,265605794+00:00 Launch done: PID is 1497",1
+468bb62f,[ OK ] <*> <*> <*> <*> <*> File Systems.,2
+9c9afca3,[ OK ] Finished Flush Journal to Persistent Storage.,1
+90e538f5,[ OK ] Finished Create Static Device Nodes in /dev.,1
+42076f71,overflow_protection.sh:,1
+dc588105,removing /var/log/coredump/core.CMXmarsServer.1000.b98ef10ab3f8471aa548add9b9e5d223.89285.1699427001000000.lz4,1
+bcb2b48e,removing /var/log/coredump/core.CMXmarsServer.1000.b98ef10ab3f8471aa548add9b9e5d223.86893.1699426915000000.lz4,1
+2cea3773,removing /var/log/coredump/core.CMXmarsServer.1000.b98ef10ab3f8471aa548add9b9e5d223.84495.1699426893000000.lz4,1
+60c77e5c,removing /var/log/coredump/core.CMXmarsServer.1000.b98ef10ab3f8471aa548add9b9e5d223.69194.1699426870000000.lz4,1
+ab48e2e1,removing /var/log/coredump/core.CMXmarsServer.1000.b98ef10ab3f8471aa548add9b9e5d223.3524180.1699426785000000.lz4,1
+46e05f35,removing /var/log/coredump/core.CMXmarsServer.1000.b98ef10ab3f8471aa548add9b9e5d223.3522024.1699419845000000.lz4,1
+f4783b9f,chromium-bin: no process found,1
+b01950ec,"xserver-nodm.service: Control process exited, code=exited, status=1/FAILURE",1
+534c1d97,xserver-nodm.service: Failed with result 'exit-code'.,1
+1936a999,[ OK ] Mounted /var/volatile.,1
+7c037737,Starting Bind mount volatile <*>,4
+338e72a7,[ OK ] Finished Bind mount volatile <*>,4
+33603e9b,[ OK ] Finished Create Volatile Files and Directories.,1
+81171f50,[ OK ] Finished Record <*> <*> in UTMP.,2
+0abd25fb,[ OK ] Started Daily Cleanup of Temporary Directories.,1
+c41c8cec,[ OK ] Listening on D-Bus System Message Bus Socket.,1
+eb2c13b6,[ OK ] Started D-Bus System Message Bus.,1
+5b87b0ab,[ OK ] Started User Login Management.,1
+2c00c489,"xserver-nodm.service: Scheduled restart job, restart counter is at 1.",1
+0f38aefc,Stopped Xserver startup with a display manager.,1
+66d3da2c,App listening at http://:::5463,1
+6bcf3d2d,Get facettes for <*>,13
+3a881467,INFO: No facettes found for mrt.scriptpackages-helpk70 !,1
+8eed0afc,Facettes successfully merged!,1
+4a711247,Create TOC for <*>,13
+4f49c93f,"Start signalR Config: {""HandshakeTimeout"":""00:00:15"",""KeepAliveInterval"":""00:00:10"",""ClientTimeoutInterval"":""00:02:00"",""SupportedProtocols"":[""json"",""json""],""MaximumReceiveMessageSize"":32768,""EnableDetailedErrors"":true,""StreamBufferCapacity"":10,""MaximumParallelInvocationsPerClient"":1}",1
+d757f970,"igb 0000:0d:00.0 eth_external: igb: eth_external NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX",1
+ebee60c2,<info> [1699535502.8508] policy: auto-activating connection 'Wired connection 1' (3f1f050d-9dff-38f2-8a9d-9a9dc8b3ebb8),1
+5acd1d0a,<info> [1699535502.8514] device (eth_external): Activation: starting connection 'Wired connection 1' (3f1f050d-9dff-38f2-8a9d-9a9dc8b3ebb8),1
+47ac45bb,<info> [1699535502.8547] dhcp4 (eth_external): activation: beginning transaction (timeout in 45 seconds),1
+56e6d4ad,"<info> [1699535502.8657] dhcp4 (eth_external): state changed new lease, address=<*>",1
+e48d8b9e,<info> [1699535502.8779] policy: set 'Wired connection 1' (eth_external) as default for IPv4 routing and DNS,1
+a614df18,<info> [1699535502.8802] manager: startup complete,1
+ef22e945,Finished Network Manager Wait Online.,1
+18485d6f,Reached target Network is Online.,1
+440b054b,Started MRT <*> <*>,2
+d66acb51,Starting Docker Application Container Engine...,1
+d04bc139,Starting mrt.sfa fake service for reordering base and logging service startup timings...,1
+aa125a43,"Starting ""AlfManager, a service to provide abstract license features (ALFs)""...",1
+2f65e34e,Starting Rohde & Schwarz Installation Service...,1
+4c7dc6d9,Starting RS License Server...,1
+52406bc9,SFA fake service started,1
+377591fd,Started xU Drivers.,1
+bfa5f98a,Finished mrt.sfa fake service for reordering base and logging service startup timings.,1
+1676c0b7,"mrt.base.service: Executable /usr/local/LoggingService/bin/stopcurrentlogger.sh missing, skipping: Permission denied",1
+c4e50d94,Started Battery Measurement Service.,1
+17d0f24a,Starting MRT Deployment <*> Service...,2
+4a6401dc,Checking /home/instrument/fw/system//Restauration/RestaurationConsistent,1
+93986f3e,Starting CATR <*> positioner driver as microservice for CMX clients and Contest...,2
+f6fb60de,WARNING: License Server not started explicitly. Should already be started after installing BASE services,1
+68bb2038,Started CATR <*> positioner driver as microservice for CMX clients and Contest.,2
+25be0eab,WARNING: AlfManager not started explicitly. Should already be started after installing BASE services,1
+b2d4d5ae,Poky (Yocto Project Reference Distro) 4.0 genericx86-64 -,1
+d3a2e785,Started <*> /usr/lib/fw/rs.fsw_tools.fsw/au_ld_standalone <*>,3
+92ef5a1a,Started [1886]: /usr/lib/fw/rs.fsw_tools.fsw/front_unit_ld_standalone 1500,1
+943534ec,Started [1889]: /usr/lib/fw/rs.fsw_tools.fsw/pu_ld_standalone 1100 --type=B300B,1
+4acaab70,Hosting environment: Production,3
+87de30c5,Content root path: <*>,3
+959fa2b5,Now listening on: <*>,2
+54ce33a4,The termination request handler has been registered.,1
+2b76765b,ERROR: Cannot create file <*> Permission denied,6
+b19a6d3b,WARNING: Attempting <*> instead,7
+c34b7ae1,TOC successfully created!,1
+f801cb31,Decrypt running on file: /usr/lib/fw/RS.CMWBase/DPSW/front_unit/images/images.rs,2
+fa7d3693,"time=""2023-11-09T13:11:43.440540015Z"" level=info msg=""Starting up""",1
+96675ef4,"<*> level=info msg=""parsed scheme: \""unix\"""" module=grpc",2
+1ccaf02c,"<*> level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc",2
+04d7dadb,"<*> level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock <nil> 0 <nil>}] <nil> <nil>}"" module=grpc",2
+054fee2d,"<*> level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc",2
+26139fae,Connected to machine mrt-chromium. Press ^] three times within 1s to exit session.,1
+a79d9663,Started OpenSSH Per-Connection Daemon (<*>).,6
+c88f67c1,gpg: AES256.CFB encrypted data,2
+aa61e506,error: kex_exchange_identification: Connection closed by remote host,4
+8f387901,Connection closed by <*> port <*>,4
+d7c9ef64,Created application facet succesfully,1
+6c489555,Get video meta info for <*>,26
+14cdf138,Get video meta info for <*> <*>,2
+5b905cab,Get index for <*>,13
+b3901e8f,CPDefErrorLoggerMulti::Write(): No Loggers registered!,6
+5356a307,AlfManager started. Version: <*>,1
+e2f341f3,"ERROR: Cannot create file ""PU_1100/PU_1100_mic_serial.log"": No such file or directory",1
+cb2895c5,PU MAC Address for 1G_Serdes from Eeprom: 00:e0:33:0b:b5:bf,1
+79446123,Default configuration file /opt/rohde-schwarz/license-server/var/rohde-schwarz/license-server/config/RsLicenseServerApp.json found,1
+f49adee4,Default logging path changed from '/opt/rohde-schwarz/license-server/log' to '/var/log/',1
+258d942a,R&S License Server - <*>,1
+c69f9689,"Copyright (c) 2013-2022, Rohde & Schwarz GmbH & Co. KG, Munich.",1
+996fab3a,Using configuration file /opt/rohde-schwarz/license-server/var/rohde-schwarz/license-server/config/RsLicenseServerApp.json,1
+901db7c8,No or insufficient number of certificate or key files found,1
+793c14e3,"Private interface on TCP/IP port 9443 (IPv6 allowed: 1, binding: any)",1
+1e3f9a40,Public interface (HTTP/REST) on TCP/IP port 9444,1
+538ff587,Public binding: any - read / installation / configuration-write restrictions: none / none / none,1
+c87a42bb,Utilization of resources recorded: Basic recording,1
+15c6ce74,Exporting prometheus metrics at port: 9101,1
+f9fd9581,Monitoring of smart card readers enabled (if available),1
+2ecf6222,Indices successfully merged!,1
+bf3b2c99,Logging directory /var/log/,1
+db2b36eb,Battery Life Service,1
+76cd38aa,Base Dir = /usr/lib/battery_meas_service/,1
+d2159c7f,OS : unixHome Folder Directory : /home/instrument,1
+0f7df05f,CMX_AU_IOCTL_SET_CLEAR_SIG_FPGA call,6
+6ab43c04,CMX_IOCTL_GET_SLOT_ID call,20
+c1bc7051,CMX_AU_IOCTL_DMA_DL_FPGA call,6
+822b86d7,RPC Broker <*>,2
+894dafea,[ 1] INFO RohdeSchwarz.InstallationServiceApp.Program - InstallationServiceApp v <*> (5.4.96-1kirkstone),1
+60908752,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceApp.Program - Working directory: '/opt/rohde-schwarz/installation-service',1
+4c1cfce4,"time=""2023-11-09T13:11:44.902972912Z"" level=info msg=""[graphdriver] using prior storage driver: overlay2""",1
+1865a981,"libGL error: MESA-LOADER: failed to open radeonsi: /usr/lib/dri/radeonsi_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/dri, suffix _dri)",1
+d26df6b5,libGL error: failed to load driver: radeonsi,2
+18c97926,libGL error: failed to open /dev/dri/card0: No such file or directory,1
+e26f31f4,[jitter]: Enabling JITTER rng support,1
+eb3b71ca,[jitter]: Initialized,1
+c6b141aa,"audit: type=1325 <*> <*> family=2 entries=0 op=xt_register <*> comm=""iptables""",4
+0ed00548,"NETFILTER_CFG table=nat family=2 <*> <*> <*> comm=""iptables""",53
+398e0a1d,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4C002D6E,4
+1b370cee,"NETFILTER_CFG table=filter family=2 <*> <*> <*> comm=""iptables""",51
+08e9174f,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4C002D6E,4
+308bd9a0,"<*> level=warning msg=""Your kernel does not support cgroup blkio <*>",6
+75da034f,"<*> level=info msg=""Loading containers: <*>",2
+130af5c8,"<*> Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are ""tcp"" and on UNIX ""unix"")",6
+6582f911,"audit: type=1325 <*> <*> family=2 <*> op=xt_replace <*> comm=""iptables""",8
+ef0248ec,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4E00444F434B4552,1
+81a6679d,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4E00444F434B4552,1
+5411b462,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4E00444F434B45522D49534F4C4154494F4E2D53544147452D31,1
+82dec333,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4E00444F434B45522D49534F4C4154494F4E2D53544147452D32,1
+4d3158bd,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4100444F434B45522D49534F4C4154494F4E2D53544147452D31002D6A0052455455524E,1
+3767cd4e,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4100444F434B45522D49534F4C4154494F4E2D53544147452D32002D6A0052455455524E,1
+ddff9a5b,[88:88:1109/131145.216235:ERROR:gl_surface_egl.cc(837)] EGL Driver message (Error) eglInitialize: DRI2: failed to find EGLDevice,1
+5d5e11a9,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D5000464F52574152440044524F50,1
+183ef029,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900504F5354524F5554494E47002D73003130302E38322E36342E302F32350000002D6F00646F636B657230002D6A004D415351554552414445,2
+bebac908,libEGL warning: DRI2: could not open /dev/dri/card0 (No such file or directory),1
+e90f05b8,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B4552002D6900646F636B657230002D6A0052455455524E,2
+c81166ce,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6900646F636B657230002D6F00646F636B657230002D6A00414343455054,2
+7a481143,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6900646F636B6572300000002D6F00646F636B657230002D6A00414343455054,2
+59a0bdfa,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100505245524F5554494E47002D6D006164647274797065002D2D6473742D74797065004C4F43414C002D6A00444F434B4552,1
+978899c6,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D41004F5554505554002D6D006164647274797065002D2D6473742D74797065004C4F43414C002D6A00444F434B45520000002D2D647374003132372E302E302E302F38,1
+40212423,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6F00646F636B657230002D6A00444F434B4552,2
+c4864afc,"[88:88:1109/131145.282933:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is egl, ANGLE is",1
+80264d6f,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6F00646F636B657230002D6D00636F6E6E747261636B002D2D637473746174650052454C415445442C45535441424C4953484544002D6A00414343455054,2
+83edd915,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6A00444F434B45522D49534F4C4154494F4E2D53544147452D31,3
+f8930c0b,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4900444F434B45522D49534F4C4154494F4E2D53544147452D31002D6900646F636B6572300000002D6F00646F636B657230002D6A00444F434B45522D49534F4C4154494F4E2D53544147452D32,2
+8d4f6329,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4900444F434B45522D49534F4C4154494F4E2D53544147452D32002D6F00646F636B657230002D6A0044524F50,2
+430e4743,<warn> <*> device <*> failed to read bridge setting <*>,6
+ba96fb19,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4400504F5354524F5554494E47002D73003130302E38322E36342E302F32350000002D6F00646F636B657230002D6A004D415351554552414445,1
+f7035aa0,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4400444F434B4552002D6900646F636B657230002D6A0052455455524E,1
+6d11ed99,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4400464F5257415244002D6900646F636B657230002D6F00646F636B657230002D6A00414343455054,1
+69df2725,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4400464F5257415244002D6900646F636B6572300000002D6F00646F636B657230002D6A00414343455054,1
+2ca2972d,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4400464F5257415244002D6F00646F636B657230002D6A00444F434B4552,1
+bb7c2410,MESA-LOADER: failed to retrieve device information,1
+11133fbb,"MESA-LOADER: failed to open <*> <*> cannot open shared object file: Permission denied (search paths /usr/lib/dri, suffix _dri)",2
+1f0bb9af,failed to load driver: <*>,2
+32616a38,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4400464F5257415244002D6F00646F636B657230002D6D00636F6E6E747261636B002D2D637473746174650052454C415445442C45535441424C4953484544002D6A00414343455054,1
+b9f99aab,<*> [Program ] INFO : <*> <*> <*>,2
+312fb9f1,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4400444F434B45522D49534F4C4154494F4E2D53544147452D31002D6900646F636B6572300000002D6F00646F636B657230002D6A00444F434B45522D49534F4C4154494F4E2D53544147452D32,1
+061e2cc9,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4400444F434B45522D49534F4C4154494F4E2D53544147452D32002D6F00646F636B657230002D6A0044524F50,1
+88f5b8e5,[114:9:1109/131145.512255:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.,1
+2f44840c,<*> [Program ] INFO : <*> <*>,2
+6b5ada20,gpg: encrypted with 1 passphrase,2
+0374ec85,./,2
+7cfcaac5,./x_upper_20.bmp,2
+5f6b32b0,./e_lower_20.bmp,2
+c71a28a8,./space_12.bmp,2
+39980ddc,./k_upper_12.bmp,2
+168d33c1,./question_mark_12.bmp,2
+090f2210,./r_lower_20.bmp,2
+4fb8ab45,./w_upper_20.bmp,2
+9b206527,./u_upper_12.bmp,2
+44648f57,./q_lower_12.bmp,2
+a28be19f,./f_lower_12.bmp,2
+142d706b,./equal_20.bmp,2
+d9338c90,./d_upper_20.bmp,2
+a8314d5c,./slash_20.bmp,2
+ded581e4,./bracket_open_12.bmp,2
+0312c681,./e_lower_12.bmp,2
+ee8db7c9,./semicolon_12.bmp,2
+7ea7ef94,./fwu_wheel_3.bmp,2
+80a35d96,./m_lower_12.bmp,2
+cbb1524a,./h_lower_20.bmp,2
+15137817,./l_lower_20.bmp,2
+0898dbd3,./j_lower_20.bmp,2
+eac862bf,./two_20.bmp,2
+58a07313,./seven_20.bmp,2
+bf56f00b,./exclamation_mark_12.bmp,2
+bf4a3c00,./r_upper_20.bmp,2
+cc8fe42d,./w_lower_12.bmp,2
+ea5d538f,./i_lower_12.bmp,2
+4c019ab2,./c_lower_20.bmp,2
+d8515258,./question_mark_20.bmp,2
+026d89c4,./at_sign_12.bmp,2
+2fcba558,./a_upper_12.bmp,2
+0b1d0c85,./fwu_wheel_1.bmp,2
+31eed8b6,./higher_20.bmp,2
+cca63a21,./z_upper_20.bmp,2
+44d6ec55,./o_lower_12.bmp,2
+0a4541c7,./d_lower_12.bmp,2
+3db5386f,./s_upper_20.bmp,2
+f951f2c4,./h_upper_20.bmp,2
+a8dc53b5,./plus_20.bmp,2
+611fa2df,./bracket_open_20.bmp,2
+9fd057ad,./f_upper_20.bmp,2
+db83f465,./RS_BH_startup_slot_200.bmp,2
+e2b986fa,./b_lower_20.bmp,2
+afa9493b,./y_lower_20.bmp,2
+c27b9d6a,./d_upper_12.bmp,2
+32a9b74d,./x_lower_20.bmp,2
+df60f44e,./c_lower_12.bmp,2
+37b7629b,./d_lower_20.bmp,2
+48827131,./percent_20.bmp,2
+97fe8e4d,./k_lower_20.bmp,2
+0e27f973,./e_upper_12.bmp,2
+c0c4df3d,./eight_12.bmp,2
+125a1091,./n_upper_20.bmp,2
+52700177,./colon_12.bmp,2
+03887f72,./n_lower_20.bmp,2
+3b09a4ea,./p_lower_20.bmp,2
+4a955abe,./m_lower_20.bmp,2
+9eab23a1,./three_12.bmp,2
+70f85ae7,./eight_20.bmp,2
+0974275f,./c_upper_20.bmp,2
+940a5b21,./slash_12.bmp,2
+c3d92c79,./dot_12.bmp,2
+6289a428,./plus_12.bmp,2
+336df426,./l_lower_12.bmp,2
+e22d734e,./s_upper_12.bmp,2
+967ed4fb,./m_upper_20.bmp,2
+349bd565,./n_lower_12.bmp,2
+9d6044bf,./p_upper_20.bmp,2
+e93c47f8,./k_lower_12.bmp,2
+72c0df48,./dot_20.bmp,2
+06101778,./i_lower_20.bmp,2
+b76ac9ab,./RS_BH_startup_slot_1500.bmp,2
+2d402fca,./l_upper_20.bmp,2
+0f2901f1,./i_upper_20.bmp,2
+d8ca0fa2,./comma_12.bmp,2
+b8d83872,./lower_12.bmp,2
+d650dba2,./nine_20.bmp,2
+73b96b19,./h_lower_12.bmp,2
+8be7b0aa,./fwu_wheel_2.bmp,2
+da9c7813,./c_upper_12.bmp,2
+f3159682,./r_lower_12.bmp,2
+0b5902dc,./lower_20.bmp,2
+34901a16,./u_lower_20.bmp,2
+f4db4b68,./three_20.bmp,2
+378bb429,./q_upper_12.bmp,2
+b35a2706,./space_20.bmp,2
+df171592,./r_upper_12.bmp,2
+50c839de,./bracket_close_20.bmp,2
+7ffe03c9,./k_upper_20.bmp,2
+50759153,./fwu_wheel_7.bmp,2
+ce22f5a7,./comma_20.bmp,2
+94f090ac,./fwu_wheel_0.bmp,2
+0ba9a9fd,./six_20.bmp,2
+faea171c,./lower_line_20.bmp,2
+6de0bf86,./y_upper_12.bmp,2
+4cd87d45,./one_12.bmp,2
+13dbf676,./asterisk_12.bmp,2
+0ec1b598,./two_12.bmp,2
+add863a6,./h_upper_12.bmp,2
+7dd53597,./colon_20.bmp,2
+9b88c71e,./g_upper_12.bmp,2
+b6d864f6,./z_lower_20.bmp,2
+466d89d9,./t_upper_12.bmp,2
+e88f252d,./f_lower_20.bmp,2
+9bc2e506,./exclamation_mark_20.bmp,2
+858a7153,./o_lower_20.bmp,2
+1b60fdef,./u_lower_12.bmp,2
+8284d7f5,./y_lower_12.bmp,2
+10926928,./v_lower_12.bmp,2
+e2b4bc26,./e_upper_20.bmp,2
+f742860a,./asterisk_20.bmp,2
+03a837d3,./x_upper_12.bmp,2
+1942fcc9,./j_upper_12.bmp,2
+f1d6e123,./z_lower_12.bmp,2
+3116973c,./q_lower_20.bmp,2
+e6b20a0f,./five_12.bmp,2
+938aa463,./a_upper_20.bmp,2
+35853127,./g_upper_20.bmp,2
+24a1d941,./lower_line_12.bmp,2
+9a1ac09c,./a_lower_20.bmp,2
+e423cd13,./n_upper_12.bmp,2
+f5b43faf,./q_upper_20.bmp,2
+4e1bb744,./four_20.bmp,2
+9d7ac4fa,./w_upper_12.bmp,2
+7fd210cb,./four_12.bmp,2
+20819f5a,./v_upper_12.bmp,2
+e560e992,./seven_12.bmp,2
+10f5dc18,./zero_20.bmp,2
+931af341,./b_lower_12.bmp,2
+5ddb16f4,./at_sign_20.bmp,2
+97d704e0,./v_upper_20.bmp,2
+0121a04e,./fwu_wheel_5.bmp,2
+33383025,./fwu_wheel_4.bmp,2
+2448ad1a,./j_upper_20.bmp,2
+6b85da19,./semicolon_20.bmp,2
+211b2606,./p_upper_12.bmp,2
+f3499724,./z_upper_12.bmp,2
+9f16d899,./equal_12.bmp,2
+b2f3a7bf,./v_lower_20.bmp,2
+7477164a,./j_lower_12.bmp,2
+ada00319,./l_upper_12.bmp,2
+467a8765,./p_lower_12.bmp,2
+20975b5a,./i_upper_12.bmp,2
+502a93db,./u_upper_20.bmp,2
+148a77bf,./mid_line_20.bmp,2
+c3919393,./m_upper_12.bmp,2
+56bd1684,./fwu_wheel_6.bmp,2
+8ee3a488,./percent_12.bmp,2
+686a1e0a,./s_lower_12.bmp,2
+c2cd7038,./five_20.bmp,2
+e9d558d1,./y_upper_20.bmp,2
+e76cfc13,./b_upper_12.bmp,2
+22359898,./s_lower_20.bmp,2
+7efb995a,./one_20.bmp,2
+6fd1619d,./t_upper_20.bmp,2
+66ddfb1d,./w_lower_20.bmp,2
+f71a37d4,./zero_12.bmp,2
+92e92620,./x_lower_12.bmp,2
+be9de441,./bracket_close_12.bmp,2
+05c45355,./f_upper_12.bmp,2
+65dd9a79,./a_lower_12.bmp,2
+2aa5e250,./t_lower_20.bmp,2
+6745014c,./g_lower_20.bmp,2
+a09dcf4d,./higher_12.bmp,2
+9eb55c9b,./mid_line_12.bmp,2
+06d308c1,./b_upper_20.bmp,2
+fe42881a,./nine_12.bmp,2
+fdced061,./o_upper_12.bmp,2
+c222bd9b,./o_upper_20.bmp,2
+de9a167b,./six_12.bmp,2
+b38c1a47,./g_lower_12.bmp,2
+88555e54,./warning_mark.bmp,2
+48b300fc,./t_lower_12.bmp,2
+118f0c15,Interface docker0.IPv4 no longer relevant for mDNS.,1
+c170c3f5,Leaving mDNS multicast group on interface docker0.IPv4 with address <*>.,1
+9e32eadb,Withdrawing address record for <*> on docker0.,1
+43b66dab,"time=""2023-11-09T13:11:45.749537415Z"" level=info msg=""Default bridge (docker0) is assigned with an IP address <*>/25. Daemon option --bip can be used to set a preferred IP address""",1
+93882093,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4400464F5257415244002D6A00444F434B45522D49534F4C4154494F4E2D53544147452D31,2
+72620f47,CMX_AU_IOCTL_SET_RAT_SIG_SLOT_ID call,6
+2fb4cd30,CMX_AU_IOCTL_GET_SIGA_FPGA_VERSION call,3
+099a278d,CMX_AU_IOCTL_GET_SIGA_FPGA_IS_AFP_IMAGE call,3
+943a9964,CMX_AU_IOCTL_SET_SIGA_FPGA_AST_OFFSET call,3
+6353d10c,CMX_COMMON_IOCTL_SET_GIGABIT_CHANNEL_LINK_CONFIG call,69
+fd368af4,--- CONFIG GIGABIT CHANNEL ---,6
+3df6aab0,config_generic_gigabit_channel_link(): module_offset: <*> / sub_offset: 0x00020420 / channel_offset: 0x00000000 / confLengthDataPerAddr: 002,6
+5facd10b,config_generic_gigabit_channel_link(): access for <*> = <*>,12
+7027bac7,config_generic_gigabit_channel_link(): access is 'clear_update_write',12
+25380c1d,config_generic_gigabit_channel_link(): clear on <*> with value 0x00000000,12
+2daf3773,config_generic_gigabit_channel_link(): <*> <*> = <*> / confLengthData: <*>,24
+af854af1,config_generic_gigabit_channel_link(): update_write on <*> with value <*> (read <*> | <*>,24
+9efc314b,---,6
+2680ada1,CMX_COMMON_IOCTL_GET_GIGABIT_CHANNEL_LINK_STATUS call,12
+9606b350,CMX_COMMON_IOCTL_RESET_CST_ERROR_MONITOR call,6
+61927014,CMX_COMMON_IOCTL_GET_SYSSYNC_LINK_STATUS call,6
+aa7e88dc,get_generic_syssync_link_status called,6
+81263955,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4E00444F434B45522D55534552,1
+83ff27b4,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4100444F434B45522D55534552002D6A0052455455524E,1
+02431996,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6A00444F434B45522D55534552,2
+eadb9a6e,"time=""2023-11-09T13:11:46.245816562Z"" level=info msg=""Docker daemon"" commit=906f57ff5b-unsupported graphdriver(s)=overlay2 version=20.10.12-ce",1
+d3035691,"time=""2023-11-09T13:11:46.245932590Z"" level=info msg=""Daemon has completed initialization""",1
+04979438,Started Docker Application Container Engine.,1
+9bb26bb7,Starting R&S MRT Callysto Service...,1
+8c494d1e,Starting mrt.cmsequencer-fw-server...,1
+8c9bb285,Starting cmxreporting...,1
+88a70f03,"time=""2023-11-09T13:11:46.320469095Z"" level=info msg=""API listen on /run/docker.sock""",1
+a7cb9030,2023-11-09T13:11:46.906859Z [SignalingServiceRepository ] DEBUG: Subscribed to Signaling Service @ //mrt/0/testenvironment/0/signaling/0,1
+f2c3c1fe,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceContracts.InstallationServiceContracts - Contracts of the Installation Service v <*> (5.4.96-1kirkstone),1
+3c6f3e57,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceContracts.EnvironmentHelper - <*> <*> <*>,6
+34b69672,[RsInstallationService.MAIN] INFO <*> - <*> Abstraction Library v <*> (5.4.96-1kirkstone),2
+a2354230,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.LocalDevice - <*> <*>,4
+51118861,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.CommandLineExecutor - <*> '/usr/bin/rsync -a --info=NAME --copy-links --delete /opt/rohde-schwarz/installation-service/script/ /var/tmp/rohde-schwarz/rs-installation-service/script/',2
+c74ae02f,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.CommandLineExecutor - <*> <*> <*> <*>,8
+a1e13c0f,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.CommandLineExecutor - <*> <*> <*>,10
+ac0296a9,Termination handler has been registered in the DUT services starter.,1
+fafb37ab,[ INFO] [2023-11-09T13:11:47.346+00:00] [140590199793472] [main.__init__:44]: DUT related services instance no. 1 was created.,1
+d2a858d0,[ INFO] [2023-11-09T13:11:47.347+00:00] [140590199793472] [main.setup_and_start:218]: Starting up DUT related services.,1
+3d35595e,[ INFO] [2023-11-09T13:11:47.430+00:00] [140590199793472] [main.wait_for_brokers:150]: Waiting for broker...,1
+68bd7d58,INFO:DUT services starter:Waiting for broker...,1
+860c7031,[ INFO] [2023-11-09T13:11:47.457+00:00] [140590199793472] [main.wait_for_brokers:155]: Primary broker available.,1
+d56b9e40,INFO:DUT services starter:Primary broker available.,1
+0aca2a7f,[ INFO] [2023-11-09T13:11:47.458+00:00] [140590199793472] [main.start:198]: Start python process at '/usr/lib/dut/dut_control_venv/bin' with args: /usr/lib/dut/dut_control_venv/bin/python dut_related_services_implementation.py 0 True,1
+ea29999c,INFO:DUT services starter:Start python process at '/usr/lib/dut/dut_control_venv/bin' with args: /usr/lib/dut/dut_control_venv/bin/python dut_related_services_implementation.py 0 True,1
+a757113e,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.LocalDevice - <*> : <*>,6
+619a8711,[ INFO] [2023-11-09T13:11:47.479+00:00] [140590199793472] [main.setup_and_start:222]: DUT related services process started.,1
+931c505b,INFO:DUT services starter:DUT related services process started.,1
+9000a3c3,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.BaseDeviceInfo - ReadDeviceId 1201.0002K70-101776-ss 1201.0002K70 101776,1
+223d17aa,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.LocalDevice - Reading from : /etc/os-release,1
+28757b46,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.LocalDevice - OS Version CodeName : 'kirkstone',1
+32342520,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.InstallationServiceLib - Core (glue) library of the Installation Service v <*> (5.4.96-1kirkstone),1
+afba9e45,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.InstallationService - <*> configured as <*>,8
+04fe41c1,Startup done. Ready to receive requests.,1
+e2b8e391,Started RS License Server.,1
+a74429e1,[.NET ThreadPool Worker] INFO RohdeSchwarz.AptAbstractionLib.BaseDeviceInfo - DeviceAdded: Updating IP for CMX50070-101776 fe80::290:b8ff:fe24:d36a%3,2
+6b6e55c9,[.NET ThreadPool Worker] INFO RohdeSchwarz.AptAbstractionLib.DeviceMonitor - <*> <*> <*> <*>,5
+ab81fe75,[.NET ThreadPool Worker] INFO RohdeSchwarz.AptAbstractionLib.DeviceMonitor - Host: CMX50070-101776 (fe80::290:b8ff:fe24:d36a%3),3
+853e7e4e,[.NET ThreadPool Worker] INFO <*> - <*> <*>,15
+a0e3fd31,"[.NET ThreadPool Worker] INFO RohdeSchwarz.AptAbstractionLib.DeviceMonitor - Txt : [HostName=CMX50070-101776, SerialNumber=101776, PartNumber=1201.0002K70, DeviceId=1201.0002K70-101776-ss]",3
+0e1ec0f6,Starting software...,1
+8eced42d,LS_SERVICE_CONTROL_NOT_ALLOWED:,1
+6807fa18,ALF_NO_SYSTEMD:,1
+e9650c77,RsDeviceStarter[3219]: INFO: Starting system ...,1
+517519a5,INFO: Starting system ...,1
+873dc63c,[info ] write <*> log to <*> <*> log_level=20 <*> pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/_logging_configuration.py <*>,2
+3a9c7124,Removing network cmxreporting_default,1
+2df3937f,Network cmxreporting_default not found.,1
+e220484f,mBaseServiceRunning: 1,1
+2f5ba888,"message: ""active""",1
+c800a6a0,[info ] <*> = <*> pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/server_application.py <*>,4
+e6f5707c,[info ] connection config: ConnectionConfig('<*>') pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/server_application.py lineno=227,1
+19254e74,[info ] <*> tcp:/<*> pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/server_application.py <*>,3
+7f88be13,[info ] Configuration environment variables: pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/server_application.py lineno=231,1
+7f608265,[info ] <*> pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/server_application.py lineno=237,3
+d675ab32,tag v4.1.3,1
+29dfabcd,cmxrep-rtia,1
+59271263,[info ] Run sh -c 'dpkg -l | grep mrt.xlapi-nb' pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py lineno=90,1
+20a87e7f,[info ] | ii mrt.xlapi-nb <*>-1yocto amd64 xlapi pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py lineno=25,1
+20c4b663,[info ] --> exit code: 0 pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py lineno=112,1
+18e1c08d,[info ] Start Callysto context=_setup pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=71,1
+530a10c5,"[info ] Start Jupyter Notebook, controller: <rs_callysto.notebook_server_controller.XlapiNbDockerController object at 0x7f7d495186a0> context=_setup pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=124",1
+e80c8f7b,"[info ] Write .env file for XlapiContainerSettings(ip='*', port=7777, base_url='/notebooks', token='instrument', xlapi_instrument_address='localhost') to /run/user/0/mrt.callysto/.env.prod context=_setup | start pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/xlapi_nb_container_settings.py lineno=46",1
+271ebb10,[info ] Run /usr/share/mrt.xlapi-nb/xlapi-nb.pre-up context=_setup | start pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py lineno=90,1
+835ea6db,Started mrt.cmsequencer-fw-server.,1
+b9ce2d01,docker.rsint.net/rs_mrt-tools-docker/cmxreporting/cmxrep-rtia:v4.1.3,1
+d37c9796,<*> already loaded.,4
+7afbf59e,cmxrep-liveview-sockethost,1
+de8d4551,docker.rsint.net/rs_mrt-tools-docker/sequencer/cmsequencer-fw-server:4.6.0-72,1
+3af94d56,ID: 1,1
+cbf81586,State: 2,69
+a09c365d,Progress: [0] Initialize,1
+d77ffcf4,ID: 2,1
+12be92be,Progress: [0] Starting local naming service,1
+c1647b17,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.InstallationService - StartAsync: Method called.,1
+d1e39393,ID: 3,1
+e205919e,Progress: [0] Create license service,1
+79e13054,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.InstallationService - ExecuteAsync: Entering main loop (cancellation requested: False),1
+092da077,docker.rsint.net/rs_mrt-tools-docker/cmxreporting/cmxrep-liveview-sockethost:v4.1.3,1
+29c02de5,cmxrep-liveview-app,1
+cecde9f6,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.ServiceManagerWrapper - Notifying service state: STATUS=Starting up,1
+2a2f3527,CMX_AU_IOCTL_GET_SIGB_FPGA_VERSION call,3
+011cc686,CMX_AU_IOCTL_GET_SIGB_FPGA_IS_AFP_IMAGE call,3
+c1853b63,CMX_AU_IOCTL_SET_SIGB_FPGA_AST_OFFSET call,3
+a494667e,AU LD initialize() done with state LD_STATE_OK,3
+160909ed,AU LD has been started.,3
+7096d7f5,Waiting for (any) signal to shut down...,4
+be1ca594,Received signal: 17,8
+547aa48d,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.InstallationService - StartRpcBroker: Running RPC broker as SLAVE on address(es) 'tcp:/<*>',1
+6756c3e6,[info ] | Image with ID sha256:45ebc5d342c31a177082a50dbaa1d03abce432cc79fae5cf80b12db23785a497 already loaded context=_setup | start pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py lineno=25,1
+4b3fed9a,[info ] | <*> <*> <*> <*> context=_setup | start pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py lineno=25,2
+385783fc,[info ] <*> <*> <*> <*> context=_setup | start pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_run.py <*>,3
+b9640b6a,[info ] Run /usr/lib/callysto/venv/bin/python -m compose -f /usr/share/mrt.xlapi-nb/docker-compose.yml <*> <*> <*> <*> <*> | <*> <*> <*>,2
+34aa111b,docker.rsint.net/rs_mrt-tools-docker/cmxreporting/cmxrep-liveview-app:v4.1.3,1
+a2e020a2,Started cmxreporting.,1
+5deb7018,Front Unit LD has been started.,1
+fe6f78b5,Creating Snapshot,2
+12d2d5a4,Creating config,2
+1b21026f,Traceback (most recent call last):,1
+a84f400b,"File ""/usr/local/share/xu-scripts/cmx_package_setup_creator.py"", line <*> in <*>",3
+0f29b0ce,exit(main()),1
+46c1f8af,"SaveAsJson(packages,args.filepath)",1
+e9e172a5,"with open(fullpath, 'w') as f:",1
+f11d4f18,FileNotFoundError: [Errno 2] No such file or directory: 'FrontUnit_1500/setup.cmxsetup',1
+df075e9b,info: RohdeSchwarz.Mrt.Microservices.PositioningCatrP3Dr.Positioning.PositioningServiceHost[0],1
+641ab6d3,Worker running at: 11/09/2023 13:11:50 +00:00,2
+180ff922,info: Microsoft.Hosting.Lifetime[0],6
+33343b9e,Application started. Press Ctrl+C to shut down.,2
+1749edc0,info: RohdeSchwarz.Mrt.Microservices.PositioningCatrP3D1.Positioning.PositioningServiceHost[0],1
+99e1b63a,No ACK from [fe80::02e0:33ff:fe0b:b5bf%eth_internal]:22 after <*> microseconds,36
+ca0eac0a,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.CommandLineExecutor - <*> '/usr/bin/rsync -a --info=NAME --copy-links /var/tmp/rohde-schwarz/rs-installation-service/primary/etc/avahi/services/ /etc/avahi/services/',2
+fe436bcf,"Files changed, reloading.",1
+ba9addc7,"Service group file /services/rs-installation-service.service changed, reloading.",1
+6eb80663,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.CommandLineExecutor - <*> 'dpkg-query --showformat='${Package}' -W mrt.base-primaryk70',2
+5916e6b6,[RsInstallationService.MAIN] INFO RohdeSchwarz.AptAbstractionLib.BaseDeviceInfo - ------------------,1
+62dc6cb8,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationManagerAbstractionLib.InstallationManagerAbstractionLib - Installation Manager Abstraction Library v <*> (5.4.96-1kirkstone),1
+2b445c48,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationManagerAbstractionLib.InstallationManagerHandlerFactory - No primary package installed,1
+798abbbc,"1,Stdout:,Stderr:dpkg-query: no packages found matching mrt.base-primaryk70",1
+e1618860,Creating cmseq ...,1
+aecac97d,Published Changes!,1
+75ba44a8,Battery Life Service is successfully started.,1
+e7d31fc0,Ready,1
+6f0495bb,"Creating network ""cmxreporting_default"" with the default driver",1
+d378193b,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900504F5354524F5554494E47002D73003130302E38322E36342E3132382F32350000002D6F0062722D653937343130663832613539002D6A004D415351554552414445,1
+2341bf4c,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B4552002D690062722D653937343130663832613539002D6A0052455455524E,1
+58c3f588,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D6A00414343455054,1
+46f7bbbf,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D690062722D6539373431306638326135390000002D6F0062722D653937343130663832613539002D6A00414343455054,1
+9e0decaf,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6F0062722D653937343130663832613539002D6A00444F434B4552,1
+711b9a97,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4900464F5257415244002D6F0062722D653937343130663832613539002D6D00636F6E6E747261636B002D2D637473746174650052454C415445442C45535441424C4953484544002D6A00414343455054,1
+828b099c,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4900444F434B45522D49534F4C4154494F4E2D53544147452D31002D690062722D6539373431306638326135390000002D6F0062722D653937343130663832613539002D6A00444F434B45522D49534F4C4154494F4E2D53544147,1
+485c6f1d,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4900444F434B45522D49534F4C4154494F4E2D53544147452D32002D6F0062722D653937343130663832613539002D6A0044524F50,1
+12f923d5,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D4400464F5257415244002D6A00444F434B45522D55534552,1
+8d5a5277,2023-11-09T13:11:51.629171Z [NamingHandlerRepository ] INFO : Subscribing to Naming Service,1
+a05f2228,2023-11-09T13:11:51.630298Z [NamingHandlerRepository ] DEBUG: Connected to Naming Service @ //mrt/0/naming/0,1
+25e76795,<*> [ConnectionOptimizerService ] INFO : <*> <*> <*> <*> @ //mrt/0/connectionoptimizer/0,2
+2ff8fb1d,2023-11-09T13:11:51.666638Z [ConnectionOptimizerService ] INFO : Publishing //mrt/0/connectionoptimizer/0,1
+9206da17,Creating <*> ...,3
+73c56014,<*> [DeviceApiSubscriber ] DEBUG: <*> <*> //mrt/0/health/0,68
+c7cade8c,2023-11-09T13:11:51.812891Z [DeviceApiSubscriber ] DEBUG: WorkerLoopAsync started,1
+31bc29da,<*> [DeviceApiSubscriber ] DEBUG: 0 messages in the queue,68
+c3517e15,2023-11-09T13:11:51.815686Z [Lifetime ] INFO : Application started. Hosting environment: Production; Content root path: /,1
+7c627a8c,<*> [DeviceApiSubscriber ] DEBUG: Received message from Health service,67
+62c580f0,<*> [DeviceApiSubscriber ] DEBUG: Health service message:,67
+fef90f00,<*> [DeviceApiSubscriber ] DEBUG: * <*> Startup,68
+384b9bfc,<*> [DeviceApiSubscriber ] DEBUG: * ProgressInfo: <*> <*> <*>,20
+48c7188d,2023-11-09T13:11:51.825367Z [DeviceApiSubscriber ] INFO : MRT changed from state Inactive to Startup,1
+8db95a29,Started MRT Deployment <*> Service.,2
+06a62b54,ANOM_PROMISCUOUS <*> prom=256 old_prom=0 auid=4294967295 uid=0 gid=0 ses=4294967295,3
+386e144a,br-e97410f82a59: port <*> entered <*> state,15
+44784cb1,device <*> entered promiscuous mode,3
+0c4fd11c,PROCTITLE proctitle=2F7573722F62696E2F646F636B657264002D480066643A2F2F,3
+2cabd698,"<*> level=info msg=""loading plugin <*> runtime=io.containerd.runc.v2 <*>",15
+68e5ffa2,"<*> level=info msg=""starting signal loop"" namespace=moby <*> <*> runtime=io.containerd.runc.v2",5
+0c36b1f1,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393937002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133303A343939370000002D690062722D653937343130,1
+94dbe5e1,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313330002D2D64706F72740034393937002D6A004143,1
+008b2326,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313330002D64003130302E38322E36342E313330002D2D64706F72740034393937002D6A004D415351554552414445,1
+259bee3f,Creating cmseq ... done,1
+80533267,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393935002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133303A343939350000002D690062722D653937343130,1
+7b20a971,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313330002D2D64706F72740034393935002D6A004143,1
+ebbea3f4,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313330002D64003130302E38322E36342E313330002D2D64706F72740034393935002D6A004D415351554552414445,1
+61a27245,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393934002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133303A343939340000002D690062722D653937343130,1
+90f85e03,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313330002D2D64706F72740034393934002D6A004143,1
+822c8bf3,Attaching to cmseq,1
+96bba397,cmseq | Adding utility paths to environment variable PYTHONPATH...,1
+d0169adf,cmseq | <*>,2
+70848ea0,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313330002D64003130302E38322E36342E313330002D2D64706F72740034393934002D6A004D415351554552414445,1
+b6551693,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393933002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133303A343939330000002D690062722D653937343130,1
+6ab09073,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313330002D2D64706F72740034393933002D6A004143,1
+77d3b068,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313330002D64003130302E38322E36342E313330002D2D64706F72740034393933002D6A004D415351554552414445,1
+b19b7646,[info ] Poll for running status (timeout=5.0) context=_setup pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=127,1
+c5593bda,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.MetaDataProviderRawSqlBase`1 - Initializing meta data DB '/opt/rohde-schwarz/installation-service/Database/MetaData.db',2
+c787ccaa,"[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.MergingAndMetaDataAddingInstallationProvider - <*> meta data DB version '0.0', exported '3/9/2023 12:09:14 PM', minimum version 1.0, path '/opt/rohde-schwarz/installation-service/Database/MetaData.db'",2
+d2accace,[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.DapiAbstractionLib - <*> v <*>,2
+75513b15,"[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.DapiInstallationServerFactory - Starting InstallationServer for instance #0 (0 --> Master CMX, >0 --> multibox slave CMXes)",1
+31f89e92,[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.InstallationServer - (resource //mrt/0/installation/0): Initializing using provider 'Merging and Metadata adding installation provider: With underlying providers:,1
+fff832ac,cmseq | Starting imports in CMsequencer starter...,1
+33d52062,cmseq | Completed the fix of the python path in 5.817413330078125e-05,1
+e2f7a8e4,cmseq | Completed imports in CMsequencer starter in 0.294696569442749,1
+c9243ac8,cmseq | <*> starter processes IDs: [],2
+0bb9bfb6,cmseq | Completed synchronisation operations in 0.0005421638488769531,1
+c77d06f0,cmseq | CMsequencer starter has completed in 0.049607276916503906,1
+ac1332f5,cmseq | Started in 0.34490370750427246,1
+abee2c24,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4E00444F434B45525F4F5554505554,3
+e8d83dea,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D49004F5554505554002D64003132372E302E302E3131002D6A00444F434B45525F4F5554505554,3
+ff5e3b83,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4E00444F434B45525F504F5354524F5554494E47,3
+f7ef9857,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900504F5354524F5554494E47002D64003132372E302E302E3131002D6A00444F434B45525F504F5354524F5554494E47,3
+7fb2ba2a,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F4F5554505554002D64003132372E302E302E3131002D7000756470002D2D64706F7274003533002D6A00444E4154002D2D746F2D64657374696E6174696F6E003132372E302E302E31313A3534383637,1
+a4a14070,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F504F5354524F5554494E47002D73003132372E302E302E3131002D7000756470002D2D73706F7274003534383637002D6A00534E4154002D2D746F2D736F75726365003A3533,1
+ede07e66,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F4F5554505554002D64003132372E302E302E3131002D7000746370002D2D64706F7274003533002D6A00444E4154002D2D746F2D64657374696E6174696F6E003132372E302E302E31313A3338383535,1
+904b462b,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F504F5354524F5554494E47002D73003132372E302E302E3131002D7000746370002D2D73706F7274003338383535002D6A00534E4154002D2D746F2D736F75726365003A3533,1
+4f81aa73,eth0: renamed from <*>,3
+2a29e053,Creating <*> ... done,3
+798ee215,[info ] <*> <*> <*> <*> <*> context=_setup | get_jupyter_notebook_status | is_running pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/notebook_server_controller.py <*>,3
+ecdf1dd8,[info ] | ------------------------------------------------------------------- context=_setup | get_jupyter_notebook_status | is_running pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/notebook_server_controller.py lineno=601,1
+ee8aba13,[info ] --> returncode: 0 context=_setup | get_jupyter_notebook_status | is_running pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/notebook_server_controller.py lineno=601,1
+3cdb6887,"[warning ] Failed GET http://localhost:7777/notebooks/tree?token=instrument (elapsed=0.00508): ConnectionError(MaxRetryError(""HTTPConnectionPool(host='localhost', port=7777): Max retries exceeded with url: /notebooks/tree?token=instrument (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7d49519630>: Failed to establish a new connection: [Errno 111] Connection refused'))"")) context=_setup | get_jupyter_notebook_status | is_running pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/notebook_server_controller.py lineno=659",1
+a99c83b8,[info ] intermediate polling status: <*> <*> context=_setup pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=131,4
+a6d9af56,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393936002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133313A383039300000002D690062722D653937343130,1
+81750540,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313331002D2D64706F72740038303930002D6A004143,1
+22daec4f,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313331002D64003130302E38322E36342E313331002D2D64706F72740038303930002D6A004D415351554552414445,1
+d446ebcf,"[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.InstallationServer - Publishing new state: { ""resourceName"": { ""value"": ""//mrt/0/installation/0"" }, ""getPackages"": { }, ""getPackageDetails"": { }, ""installPackages"": { }, ""removePackages"": { }, ""dependsOn"": { }, ""refreshRepositoryCaches"": { }, ""listOfCredentialInfoSet"": { ""credentialInfoSets"": [ { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } } ] }, ""listOfRepositories"": { ""repositoryInfo"": [ { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/6833bea6-0fd3-4c2a-bf3d-f1e959e6c526"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""DEVELOP"" } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/b6ecca4c-577f-483a-9e01-facfc52761fa"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""INTEGRATION"" } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/c78a506c-20b7-4021-9acd-d9e9c8a79f17"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""INTERNAL"" } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/11c1d8d6-df1c-4e10-85cd-bc22d6215b32"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""BETA"" } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/4530d9b9-ed66-4e6b-a4f3-0aeb55294495"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""OFFICIAL"" } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { } } ] }, ""importRepository"": { }, ""deviceTopologySet"": { ""primaryDevice"": { ""description"": ""cmx500"", ""id"": ""1201.0002K70-101776-ss"", ""hostName"": ""CMX50070-101776"" } } }",1
+afc96f00,[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.InstallationServer - ------ Installation service starting ------,1
+ad1b2223,"[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.InstallationServer - InterfaceVersion: { ""resourceName"": { ""value"": ""//mrt/0/installation/0/interfaceversion/0"" }, ""majorVersion"": 5, ""minorVersion"": 4 }",1
+de9695d0,"[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.InstallationServer - ServiceVersion : { ""majorVersion"": 5, ""minorVersion"": 4, ""patchVersion"": 96, ""tag"": ""1kirkstone"", ""readableVersion"": ""5.4.96-1kirkstone"" }",1
+c8dbd5c6,"[RsInstallationService.MAIN] INFO RohdeSchwarz.DapiAbstractionLib.DapiInstallationServerFactory - Successfully started InstallationServer for instance #0 (0 == Master CMX, >0 ==> multibox slave CMXes)",1
+d770a7dc,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.ServiceManagerWrapper - Notifying service state: <*>,3
+0ba21938,Started Rohde & Schwarz Installation Service.,1
+4878b7ad,[RsInstallationService.MAIN] INFO RohdeSchwarz.InstallationServiceLib.InstallationService - ExecuteAsync: Running under Systemd with watchdog interval: 00:00:31.5000000,1
+74660153,"[.NET ThreadPool Worker] INFO RohdeSchwarz.InstallationServiceLib.InstallationService - Stats: Working set 161.44M, Virtual set 4.46G, CPU Time 4.300 s, CPU User Time 3.960 s, Threads 35",1
+387d9a28,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F4F5554505554002D64003132372E302E302E3131002D7000756470002D2D64706F7274003533002D6A00444E4154002D2D746F2D64657374696E6174696F6E003132372E302E302E31313A3434313436,1
+05080a18,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F504F5354524F5554494E47002D73003132372E302E302E3131002D7000756470002D2D73706F7274003434313436002D6A00534E4154002D2D746F2D736F75726365003A3533,1
+94cc685e,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F4F5554505554002D64003132372E302E302E3131002D7000746370002D2D64706F7274003533002D6A00444E4154002D2D746F2D64657374696E6174696F6E003132372E302E302E31313A3432373935,1
+6e3e0b4c,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F504F5354524F5554494E47002D73003132372E302E302E3131002D7000746370002D2D73706F7274003432373935002D6A00534E4154002D2D746F2D736F75726365003A3533,1
+0ee1f43f,cmseq | log_system_disk_usage not implemented for this platform,6
+c891e42c,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393939002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133323A343939390000002D690062722D653937343130,1
+dde54b8d,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313332002D2D64706F72740034393939002D6A004143,1
+93705d35,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313332002D64003130302E38322E36342E313332002D2D64706F72740034393939002D6A004D415351554552414445,1
+3193b507,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100444F434B4552002D7000746370002D6400302F30002D2D64706F72740034393938002D6A00444E4154002D2D746F2D64657374696E6174696F6E003130302E38322E36342E3133323A343939380000002D690062722D653937343130,1
+5d1af16e,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D740066696C746572002D4100444F434B45520000002D690062722D653937343130663832613539002D6F0062722D653937343130663832613539002D7000746370002D64003130302E38322E36342E313332002D2D64706F72740034393938002D6A004143,1
+a5da0574,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4100504F5354524F5554494E47002D7000746370002D73003130302E38322E36342E313332002D64003130302E38322E36342E313332002D2D64706F72740034393938002D6A004D415351554552414445,1
+d452834c,[RepositoryStatusMonitor] INFO RohdeSchwarz.AptAbstractionLib.RepositoryStatusMonitor - <*> <*>,3
+901a5f31,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F4F5554505554002D64003132372E302E302E3131002D7000756470002D2D64706F7274003533002D6A00444E4154002D2D746F2D64657374696E6174696F6E003132372E302E302E31313A3536393338,1
+18f03424,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F504F5354524F5554494E47002D73003132372E302E302E3131002D7000756470002D2D73706F7274003536393338002D6A00534E4154002D2D746F2D736F75726365003A3533,1
+c74dde8d,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F4F5554505554002D64003132372E302E302E3131002D7000746370002D2D64706F7274003533002D6A00444E4154002D2D746F2D64657374696E6174696F6E003132372E302E302E31313A3333343337,1
+7fca85e8,PROCTITLE proctitle=2F7573722F7362696E2F69707461626C6573002D2D77616974002D74006E6174002D4900444F434B45525F504F5354524F5554494E47002D73003132372E302E302E3131002D7000746370002D2D73706F7274003333343337002D6A00534E4154002D2D746F2D736F75726365003A3533,1
+d9dc81a4,"Attaching to cmxreporting_socket_host_1, cmxreporting_live_view_1, cmxreporting_rtia_1",1
+5867cf8e,"live_view_1 | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration",1
+6653e1ba,live_view_1 | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/,1
+c6d81acd,live_view_1 | /docker-entrypoint.sh: Launching <*>,3
+163fbee0,live_view_1 | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf,1
+d2b62928,live_view_1 | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version,1
+7a79d64c,live_view_1 | /docker-entrypoint.sh: Configuration complete; ready for start up,1
+b65866dc,socket_host_1 | CMreporting Socket Host v4.1.3 running on <*>,1
+858e473c,socket_host_1 | Running in Docker: true,1
+5b97e8cb,socket_host_1 | <*> subscribed to 'report-tables-charts'.,3
+8cd5f882,rtia_1 | Rohde & Schwarz GmbH & Co. KG - CMXreporting,1
+d31848c1,rtia_1 | Copyright (c) Rohde & Schwarz GmbH & Co. KG. All rights reserved.,1
+d1f80d01,"rtia_1 | [CMXreporting - Transport Interface Adapter, v4.1.3-3f24c370]",1
+831e73fc,ID: 4,1
+3e6ec804,Progress: [0] Detect model and licensing ...,1
+74891c24,2023-11-09T13:11:57.695603Z [DeviceApiSubscriber ] DEBUG: * ProgressInfo: Detect model and licensing ...,1
+55517dba,rtia_1 | 2023-11-09T13:11:57Z;INFO;RohdeSchwarz.CMXreporting.Logging.Logger;Logger initialized.,1
+fe67c584,rtia_1 | 2023-11-09T13:11:57Z;INFO;RohdeSchwarz.CMXreporting.Logging.Logger;LogLevel set to Info.,1
+0583667f,rtia_1 | 2023-11-09T13:11:57Z;INFO;RohdeSchwarz.CMXreporting.TransportInterfaceAdapter.Program;Application Version: 4.1.3-3f24c370,1
+17dbdd8a,rtia_1 | 2023-11-09T13:11:57Z;INFO;RohdeSchwarz.CMXreporting.TransportInterfaceAdapter.Program;Running as instrument in a container (Unix <*>),1
+e146e7a0,[RepositoryStatusMonitor] INFO RohdeSchwarz.AptAbstractionLib.RepositoryStatusMonitor - https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/,1
+c8efd9ca,"[RepositoryStatusMonitor] INFO RohdeSchwarz.AptAbstractionLib.RepositoryStatusMonitor - Beta, Develop, Integration, Internal, Official",1
+86743ce4,[RepositoryStatusMonitor] INFO RohdeSchwarz.InstallationServiceLib.CredentialPersistance - Completed EnableRepository '6833bea6-0fd3-4c2a-bf3d-f1e959e6c526' State 'Success',1
+70fec953,rtia_1 | 2023-11-09T13:11:58Z;INFO;RohdeSchwarz.CMXreporting.TransportInterfaceAdapter.Lib.DirectoryPackageFactory;CORC Directory /corc Max. CORC Age 31 Max CORC Directory Size 30.,1
+cc2d24f4,[info ] poll result: is_running=True context=_setup pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=135,1
+c59e448e,[.NET ThreadPool Worker] INFO RohdeSchwarz.AptAbstractionLib.RepositoryStatusMonitor - https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/,4
+3f3b95ef,"[.NET ThreadPool Worker] INFO RohdeSchwarz.AptAbstractionLib.RepositoryStatusMonitor - Beta, Develop, Integration, Internal, Official",4
+773925f9,[.NET ThreadPool Worker] INFO RohdeSchwarz.InstallationServiceLib.CredentialPersistance - Completed EnableRepository <*> State 'Success',4
+7a87fb39,rtia_1 | initializing report socket,3
+f235df8c,socket_host_1 | Connected: <*>,3
+bc9d4185,"[info ] Run callbacks for modified Jupyter Notebook status old=None new=JupyterNotebookStatus(running=True, notebook_url='http://localhost:80/notebooks/notebooks/tutorial_overview.ipynb?token=instrument', port=80, token='instrument') context=_setup pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=170",1
+bc8fc925,"[info ] Set jupyter_notebook_server_status to JupyterNotebookServerStatus(running=BoolValue(value=True), notebook_url=StringUtf8Value(value='http://localhost:80/notebooks/notebooks/tutorial_overview.ipynb?token=instrument'), port=UInt32Value(value=80, default=7777), token=StringUtf8Value(value='instrument')) context=_setup | register_on_modified_status_callback pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_servicer.py lineno=87",1
+f2d9cd03,[info ] Start thread periodic-notebook-state-check pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/_internal/concurrency_tools.py lineno=126,1
+115c9198,[info ] register '//mrtprivate/0/callysto/0' <- <rs_callysto.callysto_servicer.CallystoServicer object at 0x7f7d49518640> pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/cli.py lineno=156,1
+413cce40,rtia_1 | 2023-11-09T13:11:59Z;WARN;Overriding address(es) 'http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.,1
+05eca403,rtia_1 | 2023-11-09T13:11:59Z;INFO;Now listening on: <*>,2
+cb88d50b,rtia_1 | 2023-11-09T13:11:59Z;INFO;Application started. Press Ctrl+C to shut down.,1
+734f41f0,rtia_1 | 2023-11-09T13:11:59Z;INFO;Hosting environment: Production,1
+28acd8ba,rtia_1 | 2023-11-09T13:11:59Z;INFO;Content root path: /app,1
+6e514286,[info ] Create and start D-Bus Server pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/cli.py lineno=43,1
+00a45117,[info ] Start D-Bus Service org_name=com.rohde_schwarz.mrt.Callysto object_path=/com/rohde_schwarz/mrt/Callysto pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_dbus_service.py lineno=97,1
+f31c60aa,<*> ../../pcsc-lite-1.9.0/src/winscard.c:286:SCardConnect() Error Reader Exclusive,60
+db24de43,"[RepositoryStatusMonitor] INFO RohdeSchwarz.DapiAbstractionLib.InstallationServer - Publishing new state: { ""resourceName"": { ""value"": ""//mrt/0/installation/0"" }, ""getPackages"": { }, ""getPackageDetails"": { }, ""installPackages"": { }, ""removePackages"": { }, ""dependsOn"": { }, ""refreshRepositoryCaches"": { }, ""listOfCredentialInfoSet"": { ""credentialInfoSets"": [ { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } } ] }, ""listOfRepositories"": { ""repositoryInfo"": [ { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/6833bea6-0fd3-4c2a-bf3d-f1e959e6c526"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""DEVELOP"", ""validValues"": [ ""BETA"", ""DEVELOP"", ""INTEGRATION"", ""INTERNAL"", ""OFFICIAL"" ] } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { ""value"": ""SUCCESS"" } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/b6ecca4c-577f-483a-9e01-facfc52761fa"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""INTEGRATION"", ""validValues"": [ ""BETA"", ""DEVELOP"", ""INTEGRATION"", ""INTERNAL"", ""OFFICIAL"" ] } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { ""value"": ""SUCCESS"" } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/c78a506c-20b7-4021-9acd-d9e9c8a79f17"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""INTERNAL"", ""validValues"": [ ""BETA"", ""DEVELOP"", ""INTEGRATION"", ""INTERNAL"", ""OFFICIAL"" ] } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { ""value"": ""SUCCESS"" } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/11c1d8d6-df1c-4e10-85cd-bc22d6215b32"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""BETA"", ""validValues"": [ ""BETA"", ""DEVELOP"", ""INTEGRATION"", ""INTERNAL"", ""OFFICIAL"" ] } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { ""value"": ""SUCCESS"" } }, { ""resourceName"": { ""value"": ""//mrt/0/installation/0/repository/4530d9b9-ed66-4e6b-a4f3-0aeb55294495"" }, ""repositoryType"": { ""value"": ""DEBIAN_USER_DEFINED"" }, ""name"": ""rs_MRT-ART-public-debian"", ""url"": ""https://debian.rsint.net/artifactory/rs_MRT-ART-public-debian/"", ""distribution"": { ""value"": ""KIRKSTONE"" }, ""components"": [ { ""value"": ""OFFICIAL"", ""validValues"": [ ""BETA"", ""DEVELOP"", ""INTEGRATION"", ""INTERNAL"", ""OFFICIAL"" ] } ], ""credential"": { ""id"": ""public"", ""user"": ""sa_mrt-art-public"", ""isActive"": true, ""resourcename"": { ""value"": ""//mrt/0/installation/0/credential/2289cbac-07cf-4b62-9a4a-9d0a9da097e8"" } }, ""description"": ""rs_MRT-ART-public-debian"", ""enabled"": true, ""status"": { ""value"": ""SUCCESS"" } } ] }, ""importRepository"": { }, ""deviceTopologySet"": { ""primaryDevice"": { ""description"": ""cmx500"", ""id"": ""1201.0002K70-101776-ss"", ""hostName"": ""CMX50070-101776"" } } }",1
+d2e3fbfd,[info ] Service Ready: Notify SystemD pathname=/usr/lib/callysto/venv/lib/python3.10/site-packages/rs_callysto/callysto_server/cli.py lineno=117,1
+6aeb2838,Started R&S MRT Callysto Service.,1
+b9b67684,Accepted password for root from <*> port <*> ssh2,2
+c24798ce,pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0),2
+f58aa731,PROCTITLE proctitle=737368643A20726F6F74205B707269765D,2
+c643e4c7,ID: 5,1
+57ec16e2,Progress: [0] Model detected,1
+f5776a58,<*> [DeviceApiSubscriber ] DEBUG: * ProgressInfo: <*> <*>,17
+ebf63ce7,ID: 6,1
+7b6cda39,Progress: [0] Begin Base System,1
+f9bcf6fe,ID: 7,1
+f96f7a25,Progress: [1] Load <*> <*>,5
+519e6beb,ID: 8,1
+af64d079,Progress: [1] <*> Startup,3
+5dc2b520,avahi bsw: found eth_internal HW but FlexxSync cable missing : standalone mode,1
+e11c50fc,"avahi bsw: standalone: IgnoreCount 0, BOX_COUNT 1, BOX_ID 1, PREV_ENA 0, NEXT_ENA 0",1
+0a9f767c,avahi bsw: Adding service CMX50070-101776,1
+f4599849,avahi bsw: Service CMX50070-101776 successfully established.,1
+39c01521,avahi bsw: MIC <*>,5
+fa5c2ffc,avahi bsw: eth_internal=up after 0 ms,1
+2f61c3ef,"avahi bsw: <*> <*> eth_internal , IF_index=3",2
+470f4fd7,avahi bsw: add local member CMX50070-101776.local id=1 <*> type=k70 mb=MBCMX2 serial=101776 size=1,2
+e6e40f4d,FlexConfig (IniFile+Avahi):/home/instrument/fw/data/flex_config.ini FlexBrokerNetwork:1 AlfLicensePooling:1 FlexDiscoverAvahi:1 FlexLogging:0 FlexMaster:localhost DeviceNumber:0 BoxOffset:0 UseDevFpCache:0 WaitForSlaveDevFpTimeoutInSec:580 WaitForSlaveRsrcsTimeoutInSec:1200 FlexSlaves:,1
+719bc745,Set operation mode to: Primary,1
+de1c08c3,"Started ""AlfManager, a service to provide abstract license features (ALFs)"".",1
+823a1c93,Started flexxamconfigurationbridge.,1
+54b3c3ec,Startup finished in 12.656s (firmware) + 5.573s (loader) + 1.109s (kernel) + 1.182s (initrd) + 28.843s (userspace) = 49.365s.,1
+e571fe6f,FlexxAlfManagerConfigurationBridge started,1
+589a30f0,running sams:,31
+fb5695d3,"OperationMode: ""Primary"" Master address: ""<*>"" slaves:{}",1
+45e8675c,CLOSE cmx_au driver by pid: <*> <*>,9
+4c916130,CLOSE cmx_mb_bh7 driver by Pid: <*> <*>,2
+84d4d755,ID: 9,1
+4fb2adbc,ID: 10,1
+6d707ab4,ID: 11,1
+7d333294,Progress: [1] Startup,1
+05b58e7f,ID: 12,1
+aba1a38d,Progress: [1] Begin Initialize Licenses,1
+b091d618,ID: 13,1
+472ffb21,ID: 14,1
+a231e925,ID: 15,1
+83b6f399,ID: 16,1
+703ec20d,ID: 17,1
+7d1b5e85,Progress: [2] Load <*> <*>,4
+d0741164,ID: 18,1
+e8759a4e,ID: 19,1
+426beb9c,ID: 20,1
+547e5910,ID: 21,1
+7c459080,Progress: [3] Load iq_setup: /usr/lib/fw/RS.iq_setup/Config/iq_setup.xml,1
+07a3b054,ID: 22,1
+e01378e1,Progress: <*> Connect <*>,8
+1993c2ba,ID: 23,1
+a271f6bf,ID: 24,1
+516d9448,Progress: <*> Product Definition <*> loaded in: <*>,23
+742f83a0,<*> [DeviceApiSubscriber ] DEBUG: * ProgressInfo: <*> <*> <*> loaded <*> <*>,24
+9e00b09b,ID: 25,1
+9b20f307,ID: 26,1
+959ba518,ID: 27,1
+cb1700f8,ID: 28,1
+4374949b,ID: 29,1
+3b300ce8,ID: 30,1
+7a608dfa,ID: 31,1
+24325d06,ID: 32,1
+2073df53,ID: 33,1
+99830082,ID: 34,1
+45bc922e,ID: 35,1
+e447c301,ID: 36,1
+4ffaa842,ID: 37,1
+bda9873a,ID: 38,1
+58ac3f3b,ID: 39,1
+0e770d2b,ID: 40,1
+6bd05a7a,ID: 41,1
+9c1d3d1c,ID: 42,1
+190ffedf,ID: 43,1
+c5712ebc,ID: 44,1
+237f1abb,ID: 45,1
+3f31cf75,ID: 46,1
+5f741dfc,ID: 47,1
+c47c566f,ID: 48,1
+5ed66696,ID: 49,1
+03343693,ID: 50,1
+b41451ec,ID: 51,1
+cae506ac,ID: 52,1
+fbc6cbcb,ID: 53,1
+519c5335,Progress: [8] 23 Product Definition(s) loaded and merged,1
+7c59ee1e,ID: 54,1
+72bd2051,Progress: [8] <*> <*>,5
+4a25cc63,ID: 55,1
+d691715d,Progress: [8] Execute Option Poll,1
+e799016e,ID: 56,1
+16fd0cae,Progress: [8] Wait for Option Poll,1
+71d2fbf2,<*> [DeviceApiSubscriber ] DEBUG: * ProgressInfo: <*> <*> <*> <*>,3
+4f52a2a8,RsDeviceStarter[3219]: WARNING: in CRSProductManager.cpp at HandleStartupWarning():2970: [SWP_OPM_Result] Startup Warnings occurred! Please check log file '/home/instrument/fw/log/2023-11-09T13-11-48Z/StartupErrors.txt',1
+27a0c988,WARNING: in CRSProductManager.cpp at HandleStartupWarning():2970: [SWP_OPM_Result] Startup Warnings occurred! Please check log file '/home/instrument/fw/log/2023-11-09T13-11-48Z/StartupErrors.txt',1
+aefec593,fail: RohdeSchwarz.Mrt.Microservices.PositioningCatrP3D1.CatrP3D1.PositioningServiceCatrP3D1[0],1
+c6bd754d,No Positioner Detected: SocketIO IP <*> port 200: Establishing the connection to the instrument failed,1
+1c8be4a9,info: RohdeSchwarz.Mrt.Microservices.PositioningCatrP3D1.CatrP3D1.PositioningServiceCatrP3D1[0],1
+a8cbfd1a,No Positioner Detected,1
+1899f391,info: RohdeSchwarz.Mrt.Microservices.PositioningCatrP3Dr.CatrP3Dr.PositioningServiceCatrP3Dr[0],1
+8c3406d4,deviceCount = 0,1
+9b9dab1e,ID: 57,1
+3a6d0ce9,Progress: [8] <*> Product Description,2
+ad1e39f8,ID: 58,1
+f482b005,Progress: [8] Compare product descriptions,1
+48b3d528,ID: 59,1
+aca2a21d,Progress: [8] Previous Device Footprint loaded,1
+1171c6de,ID: 60,1
+8b4da86a,Progress: [8] Detect changed <*>,2
+41b080e0,ID: 61,1
+dc7043ec,ID: 62,1
+91f83423,ID: 63,1
+e28d2226,ID: 64,1
+50ffbde4,ID: 65,1
+08e6833a,Progress: [8] Creating element instances,1
+9209d419,ID: 66,1
+a86acbcf,ID: 67,1
+1b5cc394,ID: 68,1
+44dc4e22,Progress: [8] Begin Initialize Drivers (53),1
+87198c97,CRrhControllerService::get_instance 0x7f9fbdad34d0 (nil),1
+78490084,CRrhControllerService::get_instance - call reset to new object,1
+3d109502,end CRrhControllerService::get_instance 0x7f9fbdad34d0 0x55ec2263a490,1
+afeaafe5,start service for <*> with slot: <*>,5
+41e22b7c,Logger initialized to LOGGING_TO_STD_OUT,1
+82a6fecd,Found PID file from running <*> LD: <*>,5
+79f2142e,ID: 69,1
+20f65e80,Progress: [8] Loading and Initializing Drivers [1],1
+fff9c920,2023-11-09T13:12:34.142182Z [DeviceApiSubscriber ] DEBUG: * ProgressInfo: Loading and Initializing Drivers [1],1
+f92965e2,Done,1
+50b5918c,CMPX_MB_LD: Logger initialized to LOGGING_ON_TARGET,1
+9fddb750,CCmgAccess(/dev/rohde-schwarz/cmg_400) ctor handle=468,1
+49e668a8,fpga version=0x3070007,2
+c8ba3827,CCmgAccess(/dev/rohde-schwarz/cmg_300) ctor handle=472,1
+551f7fb4,build list: <*>,4
+3dd0746b,rebuild list,2
+dbd086a2,CMPX_MB_LD: boxNumber=,1
+178452c8,", micDeviceName=/dev/rsmic0, identEepromId=0, slotNumber=1400, fwuFpgaDpsw=cmx_mb_fpga.xdpsw, partNumber=1222.1850.02, hwCode=12, hwCodeCompatibilityRangeBegin=11, fwuMicDpsw=cmx_mb_mic.dpsw, boardName=MBCMX2, serialNumber=101057, combinedSlot=A001400, kdName=/dev/rohde-schwarz/cmx_mb_1400",1
+6f092199,CMPX_MB_LD: Initializing MBFPGA with slotNumber=1400 and kdName=/dev/rohde-schwarz/cmx_mb_1400,1
+2e607764,CCmgAccess(/dev/rohde-schwarz/cmg_100) ctor handle=470,1
+568530b5,fpga version=0x7080008,2
+8f6aa5d6,CCmgAccess(/dev/rohde-schwarz/cmg_200) ctor handle=480,1
