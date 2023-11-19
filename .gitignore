@@ -1,1 +1,13 @@
 *.how_to_azure
+
+OAI_CONFIG_LIST
+
+.cache/
+
+loggen/test_log1_short_filtered.csv
+
+loggen/uploaded_file.out_structured.csv
+
+loggen/uploaded_file.out_templates.csv
+
+loggen/uploaded_file.out

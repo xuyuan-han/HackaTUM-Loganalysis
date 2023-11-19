@@ -28,7 +28,6 @@ The solution should be efficient, scalable, and robust, capable of handling log 
 
 Tipp: Due to the content of the logs you find in "data", we are mostly interessted in topics around ssh!​
 - Is there a not authorized ssh login try?​
-- Is there any ssh key generations?
 - Where are the lines in the log for that?​
 - Which addresses tried to login?​
 

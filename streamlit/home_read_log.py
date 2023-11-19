@@ -31,7 +31,7 @@ def main():
         st.write("Botty:", bot_response)
 
         # Write user_input and bot_response to a text file
-        with open('chat_history.txt', 'a') as file:
+        with open('chat_history.txt', 'w') as file:
             file.write(f"User: {user_input}\n")
             file.write(f"Bot: {bot_response}\n")
         
@@ -71,9 +71,15 @@ def main():
 
     # Display chat history
         
-            # Read the content of the text file
-    with open('chat_history.txt', 'r') as file:
-        chat_history = file.read()
+    # Read the content of the text file
+    try:
+        with open('chat_history.txt', 'r') as file:
+            chat_history = file.read()
+    except:
+        chat_history = ''
+        
+    # with open('chat_history.txt', 'r') as file:
+    #     chat_history = file.read()
 
     # Display the content in the "Chat History" section
     st.subheader("Chat History")
