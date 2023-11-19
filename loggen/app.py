@@ -141,7 +141,8 @@ def main():
 
         summarizer = TrackableAssistantAgent(
             name="summarizer",
-            system_message="You are a helpful assistant. Do not generate any code.",
+            # system_message="You are a helpful assistant. Do not generate any code.",
+            system_message= "Summarizer. You generate a summary of the given files based on the instruction from the ragproxyagent. Especially, focus on the error messages and the ssh log messages. Return the line numbers of the error messages. ",
             llm_config={
                 "timeout": 600,
                 "cache_seed": 42,
@@ -151,7 +152,8 @@ def main():
 
         analyst = TrackableAssistantAgent(
             name="analyst",
-            system_message="You are a helpful assistant for analysis. You will receive a summary of the log file and then answer questions about it. Do not generate any code.",
+            # system_message="You are a helpful assistant for analysis. You will receive a summary of the log file and then answer questions about it. Do not generate any code.",
+            system_message="Analyst. You will first recieve a summary from summarizer and perform a QA (Question-Answering) task. Pay attention to the line numbers. You do not need to do any summarization.",
             llm_config={
                 "timeout": 600,
                 "cache_seed": 42,
