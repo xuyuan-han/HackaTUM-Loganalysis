@@ -9,7 +9,7 @@ import chromadb
 from logparser.Drain import LogParser
 import pandas as pd
 
-sslist = ["ragproxyagent", "summarizer", "analyst", "init_sum", "init_ana", "chosen_agent","file_path"]
+sslist = ["ragproxyagent", "summarizer", "analyst", "init_sum", "init_ana", "chosen_agent","file_path", "summary"]
 for ss in sslist:
     if ss not in st.session_state:
         st.session_state[ss] = None
@@ -59,7 +59,7 @@ def main():
     st.write("""# Auto LogGen""")
     
     with st.sidebar:
-        st.header("OpenAI Configuration")
+        st.header("1. Upload a log file here")
         uploaded_file = st.file_uploader("Upload a document", type=["txt", "pdf", "docx", "out"])
 
         if uploaded_file:
@@ -83,7 +83,7 @@ def main():
                 else:
                     st.warning("File not uploaded")
 
-    if st.button("First click here to create agents"):
+    if st.button("2. Click here to create agents"):
         get_log_data(os.path.dirname(__file__), file_path, 'test_log1_short_filtered.csv')
 
         config_list = autogen.config_list_from_json(
@@ -112,21 +112,21 @@ def main():
         print(TEXT_FORMATS)
 
         log_filtered_path = os.path.join(os.path.dirname(__file__), 'test_log1_short_filtered.csv')
-        log_structured_path = os.path.join(os.path.dirname(__file__), 'test_log1_short.txt_structured.csv')
-        log_templates_path = os.path.join(os.path.dirname(__file__), 'test_log1_short.txt_templates.csv')
+        log_structured_path = os.path.join(os.path.dirname(__file__), 'uploaded_file.out_structured.csv')
+        log_templates_path = os.path.join(os.path.dirname(__file__), 'uploaded_file.out_templates.csv')
 
         print("starting agents")
         ragproxyagent = TrackableUserProxyAgent(
             name="ragproxyagent",
             human_input_mode="TERMINATE",
-            max_consecutive_auto_reply=15,
+            max_consecutive_auto_reply=50,
             retrieve_config={
                 "task": "qa",
                 "docs_path": [
                     # "https://raw.githubusercontent.com/microsoft/FLAML/main/website/docs/Examples/Integrate%20-%20Spark.md",
                     # "https://raw.githubusercontent.com/microsoft/FLAML/main/website/docs/Research.md",
                     # "./test_log1_short.txt"
-                    log_filtered_path,
+                    # log_filtered_path,
                     log_structured_path,
                     # log_templates_path
                 ],
@@ -167,15 +167,18 @@ def main():
         st.session_state["init_ana"] = False
         
         st.info("Agents successfully created!")
+    
+    
+    selected_agent = st.radio("Choose an agent", [ "summarizer", "analyst"])
+    print("selected agent: ", selected_agent)
+
 
     with st.container():
-        selected_agent = st.radio("Choose an agent", [ "summarizer", "analyst"])
-        print("selected agent: ", selected_agent)
 
         # for message in st.session_state["messages"]:
         #    st.markdown(message)
 
-        user_input = st.chat_input("Type something...")
+        user_input = st.chat_input("3. Type something here...")
         
         if user_input:
             with st.chat_message('ragproxyagent'):
@@ -188,11 +191,12 @@ def main():
                     st.session_state["init_sum"] = True
                 else:
                     reply = st.session_state["ragproxyagent"].send(user_input, st.session_state["summarizer"])
+                    st.session_state["summary"] = reply
             if selected_agent == "analyst":
                 # ask analyst
                 if st.session_state["init_ana"] == False:
                     reply = st.session_state["ragproxyagent"].initiate_chat(st.session_state["analyst"],
-                        problem=user_input)
+                        problem=user_input + "\n Summary:" + st.session_state["summary"])
                     st.session_state["init_ana"] = True
                 else:
                     reply = st.session_state["ragproxyagent"].send(user_input, st.session_state["analyst"])

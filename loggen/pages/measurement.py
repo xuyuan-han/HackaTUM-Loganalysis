@@ -11,10 +11,10 @@ def get_log_data(log_file_path, input_file, output_file):
     regex = [
         r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)'  # IP
     ]
-    st = 0.5  # Similarity threshold
+    stt = 0.5  # Similarity threshold
     depth = 5  # Depth of all leaf nodes
 
-    parser = LogParser(log_format, indir=log_file_path, outdir=log_file_path, depth=depth, st=st, rex=regex)
+    parser = LogParser(log_format, indir=log_file_path, outdir=log_file_path, depth=depth, st=stt, rex=regex)
     parsed_data = parser.parse(input_file)
 
 
@@ -23,6 +23,10 @@ def get_log_data(log_file_path, input_file, output_file):
 
     # Filter the lines where the event template contains the words "error" or "invalid"
     filtered_df = df[df['EventTemplate'].str.contains('error|invalid', case=False, na=False)]
+
+    # Display the contents of the structured CSV file
+    st.subheader("Structured CSV File:")
+    st.write(filtered_df)
 
 
     # Save the filtered lines as a CSV file
@@ -77,11 +81,9 @@ def read_documents():
             if st.button("analysis"):
                 get_log_data(os.path.dirname(__file__), "../uploaded_file.out", 'test_log1_filtered.csv')
                 file_location=os.path.dirname(__file__)
-                df = pd.read_csv(os.path.join(os.path.dirname(file_location), "test_log1_filtered.csv"))
+                df = pd.read_csv(os.path.join(file_location, "test_log1_filtered.csv"))
 
-            # Display the contents of the structured CSV file
-                st.subheader("Structured CSV File:")
-                st.write(df)
+            
             
             
 
