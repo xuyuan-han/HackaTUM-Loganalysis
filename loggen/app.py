@@ -8,7 +8,6 @@ from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProx
 import chromadb
 from logparser.Drain import LogParser
 import pandas as pd
-import uuid
 
 sslist = ["ragproxyagent", "summarizer", "analyst", "init_sum", "init_ana", "chosen_agent","file_path"]
 for ss in sslist:
@@ -35,8 +34,6 @@ def get_log_data(log_file_path, input_file, output_file):
     # Filter the lines where the event template contains the words "error" or "invalid"
     filtered_df = df[df['EventTemplate'].str.contains('error|invalid', case=False, na=False)]
     
-
-
     # Save the filtered lines as a CSV file
     filtered_df.to_csv(log_file_path + '/' + output_file, index=False)
 
@@ -74,8 +71,6 @@ def main():
             st.write("File Size:", f"{uploaded_file.size / 1024:.2f} KB")
             file_path = os.path.join(os.path.dirname(__file__), "uploaded_file.out")
             
-            
-
             # Check if the file exists and delete it if it does
             if os.path.exists(file_path):
                 os.remove(file_path)
@@ -83,10 +78,12 @@ def main():
             with open(file_path, "wb") as file:
                 file.write(uploaded_file.read())
                 # get_log_data(os.path.dirname(__file__), file_path, 'test_log1_filtered.csv')
+                if file is not None:
+                    st.info("File successfully uploaded!")
+                else:
+                    st.warning("File not uploaded")
 
-    
-
-    if st.button("create agents"):
+    if st.button("First click here to create agents"):
         get_log_data(os.path.dirname(__file__), file_path, 'test_log1_short_filtered.csv')
 
         config_list = autogen.config_list_from_json(
@@ -122,9 +119,9 @@ def main():
         ragproxyagent = TrackableUserProxyAgent(
             name="ragproxyagent",
             human_input_mode="TERMINATE",
-            max_consecutive_auto_reply=6,
+            max_consecutive_auto_reply=15,
             retrieve_config={
-                "task": "code",
+                "task": "qa",
                 "docs_path": [
                     # "https://raw.githubusercontent.com/microsoft/FLAML/main/website/docs/Examples/Integrate%20-%20Spark.md",
                     # "https://raw.githubusercontent.com/microsoft/FLAML/main/website/docs/Research.md",
@@ -162,12 +159,6 @@ def main():
             },
         )
         print("successfully created agents")
-         # reset the assistant. Always reset the assistant before starting a new conversation.
-        # summarizer.reset()
-        # analyst.reset()
-
-        # summarizer.max_consecutive_auto_reply = 10  # set the maximum number of consecutive auto rep
-
 
         st.session_state["ragproxyagent"] = ragproxyagent
         st.session_state["summarizer"] = summarizer
@@ -175,25 +166,8 @@ def main():
         st.session_state["init_sum"] = False
         st.session_state["init_ana"] = False
         
-        # Starting Agents
-        # loop = asyncio.new_event_loop()
-        # asyncio.set_event_loop(loop)
-        # async def initiate_chat_summarizer():
-        #         problem="Summerize the general and concise summary of the given log file under 500 words, mainly focused on all different kinds of unusual ssh actions, such as invalid users and so on. This summerization will be used by experts for debugging, so please make sure it is accurate and do not need to explain simple definitions."
-        #         print("--------------------------------------initiating chat with summarizer in the loop--------------------------------------")
-        #         await st.session_state["ragproxyagent"].a_initiate_chat(
-        #             st.session_state["summarizer"],
-        #             problem=problem,
-        #             # clear_history=False
-        #         )
-        #         print("--------------------------------------after chat with summarizer in loop--------------------------------------")
-        # loop.run_until_complete(initiate_chat_summarizer())
+        st.info("Agents successfully created!")
 
-   
-
-    
-
-    
     with st.container():
         selected_agent = st.radio("Choose an agent", [ "summarizer", "analyst"])
         print("selected agent: ", selected_agent)
@@ -222,41 +196,6 @@ def main():
                     st.session_state["init_ana"] = True
                 else:
                     reply = st.session_state["ragproxyagent"].send(user_input, st.session_state["analyst"])
-            
-            # # Create an event loop
-            # loop = asyncio.new_event_loop()
-            # asyncio.set_event_loop(loop)
-
-            # print("--------------------------------------initiating chat with summarizer before loop--------------------------------------")
-
-            # Define an asynchronous function
-            # async def initiate_chat_summarizer():
-            #     print("--------------------------------------initiating chat with summarizer in the loop--------------------------------------")
-            #     await st.session_state["ragproxyagent"].a_initiate_chat(
-            #         st.session_state["summarizer"],
-            #         problem=user_input,
-            #         # clear_history=False
-            #     )
-            #     print("--------------------------------------after chat with summarizer in loop--------------------------------------")
-
-            # # Run the asynchronous function within the event loop
-            # loop.run_until_complete(initiate_chat_summarizer())
-
-            # print("--------------------------------------initiating chat with analyst before loop--------------------------------------")
-
-            # # Define an asynchronous function
-            # async def initiate_chat_analyst():
-            #     print("--------------------------------------initiating chat with analyst in the loop--------------------------------------")
-            #     await st.session_state["ragproxyagent"].a_initiate_chat(
-            #         st.session_state["analyst"],
-            #         problem=user_input,
-            #         # clear_history=False
-            #     )
-            #     print("--------------------------------------after chat with analyst in the loop--------------------------------------")
-
-            # # Run the asynchronous function within the event loop
-            # loop.run_until_complete(initiate_chat_analyst())
-            # print("--------------------------------------END--------------------------------------")
 
 if __name__ == "__main__":
     main()
