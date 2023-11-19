@@ -10,7 +10,7 @@ from logparser.Drain import LogParser
 import pandas as pd
 import uuid
 
-sslist = ["ragproxyagent", "summarizer", "analyst", "init_sum", "init_ana", "chosen_agent"]
+sslist = ["ragproxyagent", "summarizer", "analyst", "init_sum", "init_ana", "chosen_agent","file_path"]
 for ss in sslist:
     if ss not in st.session_state:
         st.session_state[ss] = None
@@ -30,10 +30,11 @@ def get_log_data(log_file_path, input_file, output_file):
 
 
     # Read the CSV file
-    df = pd.read_csv(log_file_path + '/' + input_file +'_templates.csv')
+    df = pd.read_csv( input_file +'_templates.csv')
 
     # Filter the lines where the event template contains the words "error" or "invalid"
     filtered_df = df[df['EventTemplate'].str.contains('error|invalid', case=False, na=False)]
+    
 
 
     # Save the filtered lines as a CSV file
@@ -58,12 +59,35 @@ class TrackableUserProxyAgent(RetrieveUserProxyAgent):
 
 def main():
 
-    st.write("""# AutoGen Chat Agents""")
+    st.write("""# Auto LogGen""")
+    
+    with st.sidebar:
+        st.header("OpenAI Configuration")
+        uploaded_file = st.file_uploader("Upload a document", type=["txt", "pdf", "docx", "out"])
+
+        if uploaded_file:
+            
+            st.subheader("Uploaded Document:")
+            # Display information about the uploaded file
+            st.write("File Name:", uploaded_file.name)
+            st.write("File Type:", uploaded_file.type)
+            st.write("File Size:", f"{uploaded_file.size / 1024:.2f} KB")
+            file_path = os.path.join(os.path.dirname(__file__), "uploaded_file.out")
+            
+            
+
+            # Check if the file exists and delete it if it does
+            if os.path.exists(file_path):
+                os.remove(file_path)
+            
+            with open(file_path, "wb") as file:
+                file.write(uploaded_file.read())
+                # get_log_data(os.path.dirname(__file__), file_path, 'test_log1_filtered.csv')
 
     
 
     if st.button("create agents"):
-        get_log_data(os.path.dirname(__file__), 'test_log1_short.txt', 'test_log1_short_filtered.csv')
+        get_log_data(os.path.dirname(__file__), file_path, 'test_log1_short_filtered.csv')
 
         config_list = autogen.config_list_from_json(
             env_or_file="OAI_CONFIG_LIST_QA",
@@ -167,8 +191,7 @@ def main():
 
    
 
-    with st.sidebar:
-        st.header("OpenAI Configuration")
+    
 
     
     with st.container():
